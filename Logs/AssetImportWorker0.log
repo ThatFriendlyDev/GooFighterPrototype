@@ -1,0 +1,1348 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/HyperCasual/MagnitBoyRunner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50983
+Successfully changed project path to: C:/HyperCasual/MagnitBoyRunner
+C:/HyperCasual/MagnitBoyRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 164.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/HyperCasual/MagnitBoyRunner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   27.21.14.6109
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009409 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 153.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (722ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014750 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 156.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2169ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1943ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (1377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (156ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (956ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (3.0 MB). Loaded Objects now: 7194.
+Memory consumption went from 365.1 MB to 362.1 MB.
+Total: 5.426500 ms (FindLiveObjects: 0.712800 ms CreateObjectMapping: 0.168100 ms MarkObjects: 3.419500 ms  DeleteObjects: 1.124800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 249332.326110 seconds.
+  path: Assets/Materials/ground_material.mat
+  artifactKey: Guid(577fd94950483194c98a61171a4602cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground_material.mat using Guid(577fd94950483194c98a61171a4602cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb042b6ea53d49f72f2842d9ca9e19b5') in 0.195975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.904719 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(bcd487136f9acda4890ccaa630c34c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(bcd487136f9acda4890ccaa630c34c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c723840a8b2320b51e387171cf65a2') in 0.001866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.320430 seconds.
+  path: Assets/3RD_SOFTWARE/BizulkaProduction/Stickman
+  artifactKey: Guid(52f2b3f526b151f4984206fc31d09ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/BizulkaProduction/Stickman using Guid(52f2b3f526b151f4984206fc31d09ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2f630155fdd4504db5682eed6649c1') in 0.001900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003418 seconds.
+  path: Assets/3RD_SOFTWARE/BizulkaProduction/Stickman/Prefabs
+  artifactKey: Guid(311edfe305b089f449e4cb61754857d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/BizulkaProduction/Stickman/Prefabs using Guid(311edfe305b089f449e4cb61754857d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddbbaeb75c69c43f0b22e37f6834897') in 0.001826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051583 seconds.
+  path: Assets/3RD_SOFTWARE/BizulkaProduction/Stickman/Prefabs/Stand.prefab
+  artifactKey: Guid(b4c9b441da5d1c24aacee9fbdd6b7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/BizulkaProduction/Stickman/Prefabs/Stand.prefab using Guid(b4c9b441da5d1c24aacee9fbdd6b7096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3840ab2fcdaf50b4cdf4172e65344028') in 0.100689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.902895 seconds.
+  path: Assets/Materials/ground_material.mat
+  artifactKey: Guid(577fd94950483194c98a61171a4602cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground_material.mat using Guid(577fd94950483194c98a61171a4602cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b0e26b626d5fc9b91ca8743383d999') in 0.114394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.692793 seconds.
+  path: Assets/Materials/player_material.mat
+  artifactKey: Guid(6ba0ba3da22767a4d9481f58f6be73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/player_material.mat using Guid(6ba0ba3da22767a4d9481f58f6be73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b8d15ab2f06799e9f3c1f2cc77dd99') in 0.010206 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (2.9 MB). Loaded Objects now: 7253.
+Memory consumption went from 353.6 MB to 350.7 MB.
+Total: 5.427200 ms (FindLiveObjects: 0.712500 ms CreateObjectMapping: 0.191400 ms MarkObjects: 3.428500 ms  DeleteObjects: 1.093800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168.160548 seconds.
+  path: Assets/Materials/player_material.mat
+  artifactKey: Guid(6ba0ba3da22767a4d9481f58f6be73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/player_material.mat using Guid(6ba0ba3da22767a4d9481f58f6be73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb37ef25cdd7a8f445a07046e6282ba0') in 0.073281 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011205 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1591ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1324ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (496ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.9 MB). Loaded Objects now: 7267.
+Memory consumption went from 353.6 MB to 350.7 MB.
+Total: 5.961200 ms (FindLiveObjects: 0.754200 ms CreateObjectMapping: 0.188900 ms MarkObjects: 3.424400 ms  DeleteObjects: 1.591600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010213 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1671ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1396ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (502ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.9 MB). Loaded Objects now: 7281.
+Memory consumption went from 353.7 MB to 350.7 MB.
+Total: 5.959900 ms (FindLiveObjects: 0.914800 ms CreateObjectMapping: 0.216200 ms MarkObjects: 3.410400 ms  DeleteObjects: 1.416800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185.927524 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Koala2D/Prefabs/Camera/KoalaCinemachineCamera2D Profile.asset
+  artifactKey: Guid(dfebdf44cbf06d44e8df595154b720ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Koala2D/Prefabs/Camera/KoalaCinemachineCamera2D Profile.asset using Guid(dfebdf44cbf06d44e8df595154b720ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0b9e3159395015317c26e0bdc75238') in 0.037315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Common/ScriptsCinemachine/Editor/MoreMountains.TopDownEngine.Cinemachine.Editor.asmdef
+  artifactKey: Guid(016f281d13c1b844bb0e70b5d36238a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Common/ScriptsCinemachine/Editor/MoreMountains.TopDownEngine.Cinemachine.Editor.asmdef using Guid(016f281d13c1b844bb0e70b5d36238a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b8df742588381014f01aa20f303855') in 0.004208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.153436 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Prefabs/Cameras/3DCameras --------------------------------------------------------.prefab
+  artifactKey: Guid(d4529f47989526241929319abfdfc29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Prefabs/Cameras/3DCameras --------------------------------------------------------.prefab using Guid(d4529f47989526241929319abfdfc29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0e2690254f316b7238ea87cfd808dc') in 0.113338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep3.wav
+  artifactKey: Guid(87330e686eec5485b9d791f320125d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/ApplicationUX/Beep3.wav using Guid(87330e686eec5485b9d791f320125d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0236e8654956df618b5443d226b8e6') in 0.087517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Objects/Coins3.wav
+  artifactKey: Guid(9c99390fa90924ca7b7e5cdb713d2454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Objects/Coins3.wav using Guid(9c99390fa90924ca7b7e5cdb713d2454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6607603497b998238335abbcf660e191') in 0.009924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Sounds/Click3.wav
+  artifactKey: Guid(c50c5d1f319c8a44bb2c49c454fd0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Sounds/Click3.wav using Guid(c50c5d1f319c8a44bb2c49c454fd0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15ea4bc0920a016aa4178c1223f185a') in 0.010556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button3.wav
+  artifactKey: Guid(f11c0c6f33fd247b995f6ddad111b1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/ApplicationUX/Button3.wav using Guid(f11c0c6f33fd247b995f6ddad111b1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a89c272a108bf31d734280eb8c73dd') in 0.010608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack3.wav
+  artifactKey: Guid(1646771587f13404e9ceebd1894272bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Impacts/BulletCrack3.wav using Guid(1646771587f13404e9ceebd1894272bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70c16c898ffa2c9311920dfe93eea5f') in 0.009364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Demos/SequencingDemo/Textures/Chip03_met.png
+  artifactKey: Guid(a6279a0665b96ba44957b1db2909ad8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Demos/SequencingDemo/Textures/Chip03_met.png using Guid(a6279a0665b96ba44957b1db2909ad8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f87e3cc85c4aa01663d65ed9f74f547') in 0.022290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Sounds/Confirm3.wav
+  artifactKey: Guid(269cb4d99acdfe84c80469a1af036adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Sounds/Confirm3.wav using Guid(269cb4d99acdfe84c80469a1af036adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b06e563e49f76859c8a481b3d5f6fc2') in 0.010811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Objects/Coin3.haptic
+  artifactKey: Guid(bd632a629394c4162a2f7c2e6715b685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Objects/Coin3.haptic using Guid(bd632a629394c4162a2f7c2e6715b685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36fcbfff1de90bbef25a26f5a92e355') in 0.004894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Colonel/Sounds/ColonelHurt3.wav
+  artifactKey: Guid(4ef429c0de8fc4141ab936f840c859d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Colonel/Sounds/ColonelHurt3.wav using Guid(4ef429c0de8fc4141ab936f840c859d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b270672c879c2639ddc4718c72918c5') in 0.010963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Demos/SequencingDemo/Textures/Chip03_rgh.png
+  artifactKey: Guid(443dae64c4778df43a16718c7c7a88ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Demos/SequencingDemo/Textures/Chip03_rgh.png using Guid(443dae64c4778df43a16718c7c7a88ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43849764cb37d89293885060379da8fa') in 0.010918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Colonel/Sounds/ColonelFootstep3.wav
+  artifactKey: Guid(e01aba66628423e4ab94d0ffa499fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Colonel/Sounds/ColonelFootstep3.wav using Guid(e01aba66628423e4ab94d0ffa499fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f6ee6e550bf7dfe1ee9541dfe3200f') in 0.010463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Models/Walls/LoftWallThick.fbx
+  artifactKey: Guid(4948bb5a29c9ef5419ac5f5f87f92646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Models/Walls/LoftWallThick.fbx using Guid(4948bb5a29c9ef5419ac5f5f87f92646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941d46cd18d2bbddf9318bf12c7b17ad') in 0.094129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Music/Cymbal3.wav
+  artifactKey: Guid(085de6eac040d427495f33feb5fc48e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Music/Cymbal3.wav using Guid(085de6eac040d427495f33feb5fc48e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c30985c6884e51180198a867850fd7b') in 0.011068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Models/Weapons/Models/LoftShotgun.fbx
+  artifactKey: Guid(f9631a4849bde194f82ce4a851235e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Models/Weapons/Models/LoftShotgun.fbx using Guid(f9631a4849bde194f82ce4a851235e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6228b1ded030e5d157898a7947f3f5') in 0.097482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Demos/SequencingDemo/Textures/Chip03_col.png
+  artifactKey: Guid(b1c4826a9c46eef40a5ecdf4fda06c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Demos/SequencingDemo/Textures/Chip03_col.png using Guid(b1c4826a9c46eef40a5ecdf4fda06c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29183e22a71067302ac302e4ca5672e') in 0.010919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Models/Walls/LoftWallThickLong.fbx
+  artifactKey: Guid(28eee0c2552292a4bad3b5992a9d8709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Loft3D/Models/Walls/LoftWallThickLong.fbx using Guid(28eee0c2552292a4bad3b5992a9d8709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6402d9b6034222bf0fe6f4883547924e') in 0.058403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Objects/Book3.wav
+  artifactKey: Guid(77feb55a2eaa54221a7078763e278a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/Feel/NiceVibrations/HapticSamples/Objects/Book3.wav using Guid(77feb55a2eaa54221a7078763e278a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1b6deacf4042c0b5f7b123e700a1f8') in 0.014268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077826 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Sprites/AdventurerItems.png
+  artifactKey: Guid(678058abcbfe36f42902c11d9e5f64fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Sprites/AdventurerItems.png using Guid(678058abcbfe36f42902c11d9e5f64fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7392d6366978252a602bb511880f5aaf') in 0.086064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DDestructibleBlock.prefab
+  artifactKey: Guid(1befe9784b8b90b4ab24989daef77854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DDestructibleBlock.prefab using Guid(1befe9784b8b90b4ab24989daef77854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16840e7df15fb18561a6487824c9d8c') in 0.057239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Prefabs/ItemsPickers/Minigun.prefab
+  artifactKey: Guid(f6a811d401907a94a8f74cd42bc185c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Prefabs/ItemsPickers/Minigun.prefab using Guid(f6a811d401907a94a8f74cd42bc185c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae9fc980690817283feca67995e0d27') in 0.016733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DDamageZone.prefab
+  artifactKey: Guid(0c409abb265f8e341acf3183011b9917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DDamageZone.prefab using Guid(0c409abb265f8e341acf3183011b9917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1451785895e4d15d7414b53d061d5546') in 0.014899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Resources/Items/Minigun.asset
+  artifactKey: Guid(23f15b9bad261b545acbe8659a1d279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Resources/Items/Minigun.asset using Guid(23f15b9bad261b545acbe8659a1d279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b43bd384f02160c3b5895a44a44dc7') in 0.003306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-sword.png
+  artifactKey: Guid(236d39d3ce1743d4da1a47bd304522aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-sword.png using Guid(236d39d3ce1743d4da1a47bd304522aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e46211286cb562cf79e9f103cfe942') in 0.030131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D.png
+  artifactKey: Guid(b6e9fd7fcb3cbb94c8b23bd390101d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D.png using Guid(b6e9fd7fcb3cbb94c8b23bd390101d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13935dc91507d43b73bdc5aac0997764') in 0.020630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGreenDoor.prefab
+  artifactKey: Guid(22043dc0abe19ca4ba0fca4e333ea42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGreenDoor.prefab using Guid(22043dc0abe19ca4ba0fca4e333ea42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d332cba636327dff4c6e50250d93454') in 0.018943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_1x1 Green.prefab
+  artifactKey: Guid(e8ae14751350e9441a0d7901c0f1d20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_1x1 Green.prefab using Guid(e8ae14751350e9441a0d7901c0f1d20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6ed1d4f7c55d42c55e7996fd0192b6') in 0.191268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_1WayPlatformModel.obj
+  artifactKey: Guid(2fa89a7f5825b234fbbd2270c5de0773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_1WayPlatformModel.obj using Guid(2fa89a7f5825b234fbbd2270c5de0773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec251e95104340f1c98cae058fd80d5') in 0.027290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_1WayPlatform3D.prefab
+  artifactKey: Guid(d235d887305d7944b9dd215173dc4f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_1WayPlatform3D.prefab using Guid(d235d887305d7944b9dd215173dc4f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c11d29655165b165392988c636d945') in 0.022730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_1x1 Grey.prefab
+  artifactKey: Guid(1eda0ae253d780d4db754b06d7833a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_1x1 Grey.prefab using Guid(1eda0ae253d780d4db754b06d7833a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7499c63ee2e1b315de62bfc8ddaf4224') in 0.016657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-sandbox.png
+  artifactKey: Guid(00074a01f5b5896449a872997a792081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-sandbox.png using Guid(00074a01f5b5896449a872997a792081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dbcb524bf82e2124271d828e22b8ff') in 0.029078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Sprites/Blocks/Minimal2DBlocks.png
+  artifactKey: Guid(dbb1ff0fb3145da4581e36c16ce3cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Sprites/Blocks/Minimal2DBlocks.png using Guid(dbb1ff0fb3145da4581e36c16ce3cb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1017fbf2a97f96abe1cf8bc35a147e') in 0.353088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D.png
+  artifactKey: Guid(02d16466aa585cd41b691faa11324269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D.png using Guid(02d16466aa585cd41b691faa11324269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62912aa96739a1211467c158f0a3e063') in 0.027803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_1x1 Blue.prefab
+  artifactKey: Guid(fada082eba94c4a43b6723e828602a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_1x1 Blue.prefab using Guid(fada082eba94c4a43b6723e828602a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c1610f9593fc28ca30155ec65a275b') in 0.025469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-ai.png
+  artifactKey: Guid(33ca79d8cb4e733489a10057551bdc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-ai.png using Guid(33ca79d8cb4e733489a10057551bdc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e5f461aacabd64e7c0ac1f631ea3f9') in 0.034683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2DcharacterSwitch.png
+  artifactKey: Guid(252c2103fd4fb0242b806a07e418c204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2DcharacterSwitch.png using Guid(252c2103fd4fb0242b806a07e418c204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1636ee1096f1babc2610f2c848550d11') in 0.029232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-grids.png
+  artifactKey: Guid(5bc2107b56e3a334d99127262120bc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-grids.png using Guid(5bc2107b56e3a334d99127262120bc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b779db14863df64a9ee3e4d05f8489') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DBluePortal.prefab
+  artifactKey: Guid(bb34db1e3bd6dd642939219cceb096e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DBluePortal.prefab using Guid(bb34db1e3bd6dd642939219cceb096e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b874588695090d13f1fb394d05c6b5') in 0.015691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-grid.png
+  artifactKey: Guid(597e2cb508fd7ec4e8435da2133e4191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-grid.png using Guid(597e2cb508fd7ec4e8435da2133e4191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcfc460e91ea9bea8a80caafbca6ccc') in 0.032519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Minimal2DCameras --------------------------------------------------------.prefab
+  artifactKey: Guid(b6993e89d9af3f64182a41c77cf345c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Minimal2DCameras --------------------------------------------------------.prefab using Guid(b6993e89d9af3f64182a41c77cf345c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970ed61efd0ba762cf8b808e998320fe') in 0.053233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DKillZone.prefab
+  artifactKey: Guid(bd4827cfe8738db4eb6ca4315945e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DKillZone.prefab using Guid(bd4827cfe8738db4eb6ca4315945e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7363ce987347074b1dda6c0d458f5c') in 0.014210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Sprites/Icons.png
+  artifactKey: Guid(a1fbd1aaf76d0b94e88551b7c406ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Sprites/Icons.png using Guid(a1fbd1aaf76d0b94e88551b7c406ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bef6049ee4d7874553622969f6e1a1') in 0.084816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-sandbox.png
+  artifactKey: Guid(39b8b899881de8847b7cbaa8022e3993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-sandbox.png using Guid(39b8b899881de8847b7cbaa8022e3993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77840bbada9f62060ded79165c06e15') in 0.028559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-rooms1.png
+  artifactKey: Guid(c5a4755ab077e8f4da37aba6c75086bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-rooms1.png using Guid(c5a4755ab077e8f4da37aba6c75086bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeddfb03b9162aa0d3f2576be34946c') in 0.021219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-pathfinding.png
+  artifactKey: Guid(52445f42077a7b84a83822614b4a6686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-pathfinding.png using Guid(52445f42077a7b84a83822614b4a6686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfec8a6b835713dfb355c1f77e383b3') in 0.028991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DOrangePortal.prefab
+  artifactKey: Guid(55a7be12f2d7bd7458b7057c94ea74e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DOrangePortal.prefab using Guid(55a7be12f2d7bd7458b7057c94ea74e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12868d2b3da99fd2ed03e8eeba128abf') in 0.015727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2DcharacterSwap.png
+  artifactKey: Guid(377d4e06827cc924fab97dc4020692ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2DcharacterSwap.png using Guid(377d4e06827cc924fab97dc4020692ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f2cfdc943eeab7fe7d0bbfd9065448') in 0.023621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-rooms2.png
+  artifactKey: Guid(bedcb0bf73e84eb46b94ab2000210c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal2D-rooms2.png using Guid(bedcb0bf73e84eb46b94ab2000210c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e30d8055d74e45139dee7ae48069a5') in 0.024689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-performance.png
+  artifactKey: Guid(34f38003cfa7d8946a4c8aee3105c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-performance.png using Guid(34f38003cfa7d8946a4c8aee3105c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e315aabcc1261c9b3a6881a20c2ab8') in 0.031623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-rooms.png
+  artifactKey: Guid(d93510f25c311a24b869dc4961ec4f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-rooms.png using Guid(d93510f25c311a24b869dc4961ec4f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f61b27622603b4ad139da669c845cad') in 0.032764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGateToNextLevel.prefab
+  artifactKey: Guid(6cda1f2293e46bb48b49c3ba121388fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGateToNextLevel.prefab using Guid(6cda1f2293e46bb48b49c3ba121388fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210f2f3280a9163c3695cf460a62cd54') in 0.023064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DPushableBlock.prefab
+  artifactKey: Guid(450f0c667f04ceb43b260e63614fde3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DPushableBlock.prefab using Guid(450f0c667f04ceb43b260e63614fde3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708e179fe1fc219a653cfa4212440fdc') in 0.019023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DMovingPlatform.prefab
+  artifactKey: Guid(f1c0804246333fd4fa117e75bef57218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DMovingPlatform.prefab using Guid(f1c0804246333fd4fa117e75bef57218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a510754c4eec0f548602a5b015558b') in 0.018337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-light-grey.png
+  artifactKey: Guid(0ddb67a5a68554fffb4174835c2dbdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-light-grey.png using Guid(0ddb67a5a68554fffb4174835c2dbdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38555844c8a3d7c1a0e5f2d2597ee78c') in 0.012577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-ground.png
+  artifactKey: Guid(0951da8d743322e45b24646aee33e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-ground.png using Guid(0951da8d743322e45b24646aee33e67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87670464ce135b071f4f0c47fc993f0d') in 0.014347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Green.mat
+  artifactKey: Guid(f0f9117da97c911469056f4bacf77831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Green.mat using Guid(f0f9117da97c911469056f4bacf77831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f98ca98331777ebc95a1b56bfaa187') in 0.013052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Blue 1.mat
+  artifactKey: Guid(04ece139c39ad5f4ca7868e993690762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Blue 1.mat using Guid(04ece139c39ad5f4ca7868e993690762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8438a356cc6971961a3c1e531b0c84d1') in 0.018665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-blue.png
+  artifactKey: Guid(470e18cc432c68249945840f82dc9f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-blue.png using Guid(470e18cc432c68249945840f82dc9f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48432a42c701a4d728779c38fd6d560f') in 0.017513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1LightGrey.mat
+  artifactKey: Guid(c4c5e24cb2c884f918709a952e980e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1LightGrey.mat using Guid(c4c5e24cb2c884f918709a952e980e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f9fc14faaad4cea0f5446782928074') in 0.018230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Yellow.mat
+  artifactKey: Guid(0a2d28dbef8d2403e9e53711bea863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Yellow.mat using Guid(0a2d28dbef8d2403e9e53711bea863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59154d1312bb68e0ca9a6007b9fbba3') in 0.018990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Grey.mat
+  artifactKey: Guid(3358a36a5e4c16849b2ffe25969b7a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Grey.mat using Guid(3358a36a5e4c16849b2ffe25969b7a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c6b955ff62aef8dc8ee9175bfe9f5f') in 0.015547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Yellow.mat
+  artifactKey: Guid(dd188e51a0f3e904d99787304d83bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Yellow.mat using Guid(dd188e51a0f3e904d99787304d83bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa07ef25137a3f08f797aa19af63ca8') in 0.017532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-orange.png
+  artifactKey: Guid(e96f2202b4ec6eb4ab2cd043a0a72a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-orange.png using Guid(e96f2202b4ec6eb4ab2cd043a0a72a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a7ea94751ae72c2ef581ddc0df1043') in 0.016152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Orange.mat
+  artifactKey: Guid(0d9675da0b0da3e41bff5f583979d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Orange.mat using Guid(0d9675da0b0da3e41bff5f583979d95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8672d563d14d9e6513e5705b86a8e263') in 0.013932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_4x1 Blue.prefab
+  artifactKey: Guid(e432ef68dfe616d47a6a46a75e6699cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_4x1 Blue.prefab using Guid(e432ef68dfe616d47a6a46a75e6699cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f253150ec5b9b559bd5a43056e305b1') in 0.016250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_4x1 Grey.prefab
+  artifactKey: Guid(dfb1eb8f942a02e49b6862754aa8a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_4x1 Grey.prefab using Guid(dfb1eb8f942a02e49b6862754aa8a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6915a1ea5c5642d448b5ad9ec1b0232') in 0.020751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_cylinderGrey.mat
+  artifactKey: Guid(e18c0a76c74ad447a99dbb75b60ccdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_cylinderGrey.mat using Guid(e18c0a76c74ad447a99dbb75b60ccdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8887e18b14f8953575789a0c6f09f007') in 0.013666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-orange.png
+  artifactKey: Guid(bcc40343643b8a147882a7a1d2cb0c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-orange.png using Guid(bcc40343643b8a147882a7a1d2cb0c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ea6b4f9596ac5a3d0b3b56d1dc9d99') in 0.013257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-yellow.png
+  artifactKey: Guid(89ddece3d9b66354bbf986058c4d8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-yellow.png using Guid(89ddece3d9b66354bbf986058c4d8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc1494bac64cf3efb11581de8afcf34') in 0.013872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-dark-grey.png
+  artifactKey: Guid(039804fe3356b20409cc828ad720c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-dark-grey.png using Guid(039804fe3356b20409cc828ad720c25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bb509222067933d96dac2ac291f259') in 0.011564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_4x1 Yellow Thin.prefab
+  artifactKey: Guid(7b0b124d00c122944a64fb68417efc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_4x1 Yellow Thin.prefab using Guid(7b0b124d00c122944a64fb68417efc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6f6be5f43c1bb22fbb2ee9ac16a0d2') in 0.012732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Blue.mat
+  artifactKey: Guid(fec139e6f9ae9e841917a13812463c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Blue.mat using Guid(fec139e6f9ae9e841917a13812463c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2b376eda24ebbce5186753e37b5850') in 0.012949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_BlockBackground.prefab
+  artifactKey: Guid(d45f92dd68bcab94a83f2c8e188396ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_BlockBackground.prefab using Guid(d45f92dd68bcab94a83f2c8e188396ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3f4f87310b5bc7238139979e63e2d2') in 0.086999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Blue.mat
+  artifactKey: Guid(57245e57e7e4e5d489fa38f73a631cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Blue.mat using Guid(57245e57e7e4e5d489fa38f73a631cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b225d5bd12b0c544978680d0dc17d865') in 0.016222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-orange.png
+  artifactKey: Guid(4d8bef446d4a9d946978502894c994fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-orange.png using Guid(4d8bef446d4a9d946978502894c994fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91921217cc8a57a5c25f07057239c260') in 0.014658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Green.mat
+  artifactKey: Guid(5caa62a4de87368498fcfd811bc58cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Green.mat using Guid(5caa62a4de87368498fcfd811bc58cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c7f529bbdc1a5f6c11fe5aaca1034b') in 0.015928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_point5xpoint5 Blue.prefab
+  artifactKey: Guid(c95a309405a733149a19f7450824e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_point5xpoint5 Blue.prefab using Guid(c95a309405a733149a19f7450824e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e71f5c03d43968178630d3b9eb3415') in 0.014594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_PlaneCheckers.png
+  artifactKey: Guid(72fface7e80b08042a996acc39657acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_PlaneCheckers.png using Guid(72fface7e80b08042a996acc39657acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b2d609cbde0017f8c0a9836e27c4db') in 0.011265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_movingYellow.mat
+  artifactKey: Guid(4a23b8a2ecc9407428759fab1bd77bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_movingYellow.mat using Guid(4a23b8a2ecc9407428759fab1bd77bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557f8cf8b145abf384d08e1c982e4253') in 0.012639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_palette.mat
+  artifactKey: Guid(38f64b70ffbfa6148b5d43350e478e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_palette.mat using Guid(38f64b70ffbfa6148b5d43350e478e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962a6e5f5bd49f1d5382e1a0314b706c') in 0.014866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_point5xpoint5 Orange.prefab
+  artifactKey: Guid(6e1a61d6961f1ec4785a335920d78bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_point5xpoint5 Orange.prefab using Guid(6e1a61d6961f1ec4785a335920d78bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5561735b83ddee00780d782d90dd34c6') in 0.024144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_4x1 Green.prefab
+  artifactKey: Guid(cd20e90ad736f4e41900cb110bbc7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_4x1 Green.prefab using Guid(cd20e90ad736f4e41900cb110bbc7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb89f81360e3557b39b31de908a273de') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-green.png
+  artifactKey: Guid(61dc440c5eeef6648aaa99f3f26abea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-green.png using Guid(61dc440c5eeef6648aaa99f3f26abea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943fe961f457c4040df4da5dc50131f5') in 0.014019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_4x1 Blue Thin.prefab
+  artifactKey: Guid(be085640f3d368f4287741edddb4299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_4x1 Blue Thin.prefab using Guid(be085640f3d368f4287741edddb4299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45495caedf110d505566161694c6ba15') in 0.013039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-dark-grey.mat
+  artifactKey: Guid(931f595ce4ebb154ebc6923cf1a21e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-dark-grey.mat using Guid(931f595ce4ebb154ebc6923cf1a21e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c37364ff81248d0e3c1cf4b286eca8') in 0.017494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Yellow 1.mat
+  artifactKey: Guid(dd8d390e9ab1b1b42bc7f197a9be56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Yellow 1.mat using Guid(dd8d390e9ab1b1b42bc7f197a9be56c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de2779e46295ef22a1dbca2c318c887') in 0.014830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Green 1.mat
+  artifactKey: Guid(949505b4a23018a48836cdc0d2d806f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Green 1.mat using Guid(949505b4a23018a48836cdc0d2d806f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738da6829acc02cf9ec4761cb99a7fd6') in 0.014095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-green.mat
+  artifactKey: Guid(bf69c777e96a4524580b4bf315bb4c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-green.mat using Guid(bf69c777e96a4524580b4bf315bb4c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9422c826481c462d5eca39df67410f3') in 0.014439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-green.png
+  artifactKey: Guid(9bff525eea0c8784b9e66a2b87ac22fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-green.png using Guid(9bff525eea0c8784b9e66a2b87ac22fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f224a42fe443712b9fb85b1c0ccc94') in 0.012863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-dark-grey.png
+  artifactKey: Guid(d5e17a08a4c40b7408d1be34472aa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-dark-grey.png using Guid(d5e17a08a4c40b7408d1be34472aa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c6c3e47c30d05e770a6f163a5a36a4') in 0.018826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-orange.mat
+  artifactKey: Guid(74997819f55d411459b8e959e11c9581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-orange.mat using Guid(74997819f55d411459b8e959e11c9581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc95d617e65fc9378fecd542ef81f3c') in 0.013307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-yellow.png
+  artifactKey: Guid(5fde31b4acab2d140bd5bd6fd22fed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-yellow.png using Guid(5fde31b4acab2d140bd5bd6fd22fed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8177d2b5d12944d2ad62af67c788dd69') in 0.010280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_point5xpoint5 Yellow.prefab
+  artifactKey: Guid(668fdf9dc2b8ad847aefffe5fb275613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_point5xpoint5 Yellow.prefab using Guid(668fdf9dc2b8ad847aefffe5fb275613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005fbad608440a661495da54bbc5f0cf') in 0.017703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DBlueDoor.prefab
+  artifactKey: Guid(ac19bf0faef939a48acfbec4d846bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DBlueDoor.prefab using Guid(ac19bf0faef939a48acfbec4d846bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c030ae430bdb5366d58e1af63387c425') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_point5xpoint5 Green.prefab
+  artifactKey: Guid(eb3340ac9e658044cae71be2ce922313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_point5xpoint5 Green.prefab using Guid(eb3340ac9e658044cae71be2ce922313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddb1e5fc626f314c10b44055f05afd6') in 0.012227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_4x1 Orange.prefab
+  artifactKey: Guid(8c390f83daff19e43a04e12b26f30f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_4x1 Orange.prefab using Guid(8c390f83daff19e43a04e12b26f30f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1ad721beffcc3d5ecf9c1a6b4adee4') in 0.014199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-dark-grey.png
+  artifactKey: Guid(2de4c81f824e2414b84c1ba995b18f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-dark-grey.png using Guid(2de4c81f824e2414b84c1ba995b18f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6680843d6c1103b5ef4ebc4452ac5b14') in 0.010655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Blue.mat
+  artifactKey: Guid(f1759953e12d75f4ba935e721dc202d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Blue.mat using Guid(f1759953e12d75f4ba935e721dc202d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2140c15297ea5a6932988d621b0c7b49') in 0.016586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Orange.mat
+  artifactKey: Guid(b0a3ae0f8b8395b4fa158984c3ad916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Orange.mat using Guid(b0a3ae0f8b8395b4fa158984c3ad916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2957ce7262f3f25f565c18325d7af3df') in 0.013864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_2x1 Grey.prefab
+  artifactKey: Guid(3d0825c9117333644aac77d8bb8e7dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_2x1 Grey.prefab using Guid(3d0825c9117333644aac77d8bb8e7dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f435bf327d3537303ad3756f966e4d92') in 0.021366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_FallingPlatform.prefab
+  artifactKey: Guid(822e7d95233a6f44f8228c394a95344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_FallingPlatform.prefab using Guid(822e7d95233a6f44f8228c394a95344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648d562cf92c30ae7076c15bf9aa24b7') in 0.014242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_PlaneCheckers.mat
+  artifactKey: Guid(e6893dcb405a8aa4fbdf1a28fac5de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_PlaneCheckers.mat using Guid(e6893dcb405a8aa4fbdf1a28fac5de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0603473b3e89ec1e9b257cf25a118a60') in 0.117521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_2x1 Blue.prefab
+  artifactKey: Guid(6dba5d39edbecd84e8d20900a9a74155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_2x1 Blue.prefab using Guid(6dba5d39edbecd84e8d20900a9a74155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581422287fbed9a7ab32a0000688efd9') in 0.016321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Orange 1.mat
+  artifactKey: Guid(4a36b6905b61a7a46bb293bde18540c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Orange 1.mat using Guid(4a36b6905b61a7a46bb293bde18540c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7f229829fc24b9244f5d15e644a2d2') in 0.017137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-blue.png
+  artifactKey: Guid(35564724c4cc84e408f7b0b4df0106a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-blue.png using Guid(35564724c4cc84e408f7b0b4df0106a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269ee5bd29e0f70e704abce0a0e1c3d5') in 0.017910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-green.png
+  artifactKey: Guid(c2311aeae0b9bc148afc1cb2b4e60383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-green.png using Guid(c2311aeae0b9bc148afc1cb2b4e60383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8a6a38b147d371001b4376e8308ba5') in 0.014989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_4x1 Grey Thin.prefab
+  artifactKey: Guid(8f20c5820271d2e4ba575aa937f22853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_4x1 Grey Thin.prefab using Guid(8f20c5820271d2e4ba575aa937f22853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26c1e2049c593f95245144831587051') in 0.016425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-yellow.png
+  artifactKey: Guid(f5144798c4a82f846a6357626a07ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-yellow.png using Guid(f5144798c4a82f846a6357626a07ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c55fb663db010844a6ddbb2d49ba7d') in 0.018408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_Jumper3D.prefab
+  artifactKey: Guid(e8f4d17be84ac4b3cabedf6e2e2e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_Jumper3D.prefab using Guid(e8f4d17be84ac4b3cabedf6e2e2e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2b1e9e74ae102261bb9d5793481247') in 0.023394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-grey.png
+  artifactKey: Guid(340faa0badae3504db388905c6a4063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_point5xpoint5-grey.png using Guid(340faa0badae3504db388905c6a4063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728327c917fe1f08b2740fbfaa8bd62') in 0.019119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-green.png
+  artifactKey: Guid(cfedb6255c358a44f9e222eb55c23b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-green.png using Guid(cfedb6255c358a44f9e222eb55c23b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd113815bb4eb73db4241ab915dad5c') in 0.012598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Grey.mat
+  artifactKey: Guid(d0b0a6417afed624abdca8d13de329b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Grey.mat using Guid(d0b0a6417afed624abdca8d13de329b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c2b870b9659d9b692456a20b23bd8') in 0.023407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Green.mat
+  artifactKey: Guid(c871b899fe48fd54d92d67b3415ad2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Green.mat using Guid(c871b899fe48fd54d92d67b3415ad2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e892cd2288aad66d614f3b1b09d330') in 0.013033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_point5xpoint5 Grey.prefab
+  artifactKey: Guid(d604dc285b1840e4b84b2ccae893c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_point5xpoint5 Grey.prefab using Guid(d604dc285b1840e4b84b2ccae893c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9ccde4ed3c00fbfa51e9cc1af36e75') in 0.013038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.474253 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Yellow.mat
+  artifactKey: Guid(20f5e324363bfb54ab2de1e537774d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Yellow.mat using Guid(20f5e324363bfb54ab2de1e537774d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b11b7db2046ca8a6648ae12190f710') in 0.012683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_TreeMaterial.mat
+  artifactKey: Guid(e8b4af8e94090de4dbc42953eac7f999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_TreeMaterial.mat using Guid(e8b4af8e94090de4dbc42953eac7f999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5b81377f54167f91cb11dea784519a') in 0.014167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_Terrain.mat
+  artifactKey: Guid(3d26f3442139f8d41a5ac14b3c91617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_Terrain.mat using Guid(3d26f3442139f8d41a5ac14b3c91617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee158382fffab401c2dcad329ec84500') in 0.012746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DCollectionExplosion.prefab
+  artifactKey: Guid(67d37330ad6c28d4baf834bc4412c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DCollectionExplosion.prefab using Guid(67d37330ad6c28d4baf834bc4412c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5b40b9d202a32c2ac1452bd35ebd96') in 0.014939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/PlayableCharacters/MinimalCharacter2DSwap.prefab
+  artifactKey: Guid(0e3bca33b3a6d11488647f31eeee5102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/PlayableCharacters/MinimalCharacter2DSwap.prefab using Guid(0e3bca33b3a6d11488647f31eeee5102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a950e615126af3e8bb4ea9726343dd7') in 0.017847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalCharacterInfiniteHealth.prefab
+  artifactKey: Guid(bfbd3fb63c624fb4884bf770fcc77ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalCharacterInfiniteHealth.prefab using Guid(bfbd3fb63c624fb4884bf770fcc77ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bb25794b8998a76441ab65e11dff03') in 0.052327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/PlayableCharacters/MinimalCharacter2D.prefab
+  artifactKey: Guid(1ad7bd0ba7df62842842d1a8d738ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/PlayableCharacters/MinimalCharacter2D.prefab using Guid(1ad7bd0ba7df62842842d1a8d738ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04c5c3fead4571034b6887de5a1e26c') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DTeleporterBlue.prefab
+  artifactKey: Guid(a7c1ac56499800843b63b812c13bc2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DTeleporterBlue.prefab using Guid(a7c1ac56499800843b63b812c13bc2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6adfaf675cdbda41c3f2c7dac05eb5') in 0.015701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Sprites/MinimalCharacter.png
+  artifactKey: Guid(eeb68d44a260e964584c4310ad5add3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Sprites/MinimalCharacter.png using Guid(eeb68d44a260e964584c4310ad5add3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7080a54d45e66913e1dcb72e17688632') in 0.021021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DPushableBlock.prefab
+  artifactKey: Guid(9091979688a81654bb7cdb6816ee245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DPushableBlock.prefab using Guid(9091979688a81654bb7cdb6816ee245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e7720279a98b787cc3ee9d16aed96b') in 0.015021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DGateToNextLevel.prefab
+  artifactKey: Guid(348339f926d179f44b9396ff12311a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DGateToNextLevel.prefab using Guid(348339f926d179f44b9396ff12311a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069bf0eff7a6af6dcba3a880fc5f3bbf') in 0.015642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Models/Minimal3DCoin.obj
+  artifactKey: Guid(b113a48a69f999f4ab640652725054b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Models/Minimal3DCoin.obj using Guid(b113a48a69f999f4ab640652725054b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeba6d08e82c6a76eab6d5fc5fad0816') in 0.044511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalSignPost2D.prefab
+  artifactKey: Guid(8318e672c1f8387498556e82efe5e39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalSignPost2D.prefab using Guid(8318e672c1f8387498556e82efe5e39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88837391a953ad74f1f7ef180fd0d466') in 0.010085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalGridCharacter.prefab
+  artifactKey: Guid(8d0b44bafd16bc64f80600786cc2bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalGridCharacter.prefab using Guid(8d0b44bafd16bc64f80600786cc2bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd445bdc748bb11c01ec5891334934f7') in 0.016493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Materials/MinimalGridGround.mat
+  artifactKey: Guid(5e6c05e280f501c49a2a35650acf12af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Materials/MinimalGridGround.mat using Guid(5e6c05e280f501c49a2a35650acf12af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf11622e11946bbbd3b4741b614d1eef') in 0.012027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/AI/MinimalGuide.prefab
+  artifactKey: Guid(538fea74ba50a694b9be96724fe82e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/AI/MinimalGuide.prefab using Guid(538fea74ba50a694b9be96724fe82e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc8e5da4e3425422b13251998e52d15') in 0.028254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalGridGround.prefab
+  artifactKey: Guid(9633e0e5581e4b940b897069f5d01df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalGridGround.prefab using Guid(9633e0e5581e4b940b897069f5d01df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c645f5f010f801ca9f9b5e1b9204535') in 0.011016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Sprites/Props/MinimalShootingRangeTarget.png
+  artifactKey: Guid(5a65424b033550849932ad408e9e1241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Sprites/Props/MinimalShootingRangeTarget.png using Guid(5a65424b033550849932ad408e9e1241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345552e81f0c7c78723594a278a5d110') in 0.020808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalCharacter.prefab
+  artifactKey: Guid(2513a92f10a3a1746bfe8e1034ae9f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalCharacter.prefab using Guid(2513a92f10a3a1746bfe8e1034ae9f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f152c5698d680a4814d940fc208b13') in 0.014355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Camera/Minimal3DCameraProfile.asset
+  artifactKey: Guid(69fc5ad4567da1e40afb56a2c56a1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Camera/Minimal3DCameraProfile.asset using Guid(69fc5ad4567da1e40afb56a2c56a1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0456174f0e11a94981909835eda2c3') in 0.005338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalShootingRangeTarget.prefab
+  artifactKey: Guid(e8ce83d86af40d94db6425aae3238b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalShootingRangeTarget.prefab using Guid(e8ce83d86af40d94db6425aae3238b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bcbfe6c04ba8d6b2b5f84f44dcfdf9') in 0.013237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DFallingPlatform.prefab
+  artifactKey: Guid(27843e4f682c6874fbd6d8543c7aa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DFallingPlatform.prefab using Guid(27843e4f682c6874fbd6d8543c7aa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54be1623d6a09e9ac4dd0607b8f1cb78') in 0.016278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D11.prefab
+  artifactKey: Guid(8a4d8af7a19679745871897ceeedb99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D11.prefab using Guid(8a4d8af7a19679745871897ceeedb99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d11a2cc59ad18ae31aa7a25797b8c4') in 0.016564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D6.prefab
+  artifactKey: Guid(288987daefaae0e4199de5a72664973b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D6.prefab using Guid(288987daefaae0e4199de5a72664973b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df62b3bcb85328994c3f0b0332aaa65') in 0.016211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D14.prefab
+  artifactKey: Guid(5e850931274d5a9428acb6967d8fe447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D14.prefab using Guid(5e850931274d5a9428acb6967d8fe447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a83a244f37c0560a979cb450acac609') in 0.034183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D19.prefab
+  artifactKey: Guid(ee73a72e6c4057243a9ae273f6291b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D19.prefab using Guid(ee73a72e6c4057243a9ae273f6291b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6b30e2f97e99a3aa560006ed58cabf') in 0.015953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D18.prefab
+  artifactKey: Guid(c197cefa6faaac04c8a8effbd3141bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D18.prefab using Guid(c197cefa6faaac04c8a8effbd3141bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52648c303c1dfded22fceb09befb612') in 0.015066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D5.prefab
+  artifactKey: Guid(04714032b998a95418785c7729709ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D5.prefab using Guid(04714032b998a95418785c7729709ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5703e38b3869a0948a58256361c139') in 0.015508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D16.prefab
+  artifactKey: Guid(0869e34c8247dd040abfa9314236966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D16.prefab using Guid(0869e34c8247dd040abfa9314236966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ec07634a27dcf6de7165b741e6918b') in 0.017070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D10.prefab
+  artifactKey: Guid(b6f3bbbf45dca3e44b6d98d34be06a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D10.prefab using Guid(b6f3bbbf45dca3e44b6d98d34be06a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad990086f9ac7fecb823d0fbe986f14') in 0.016526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D21.prefab
+  artifactKey: Guid(8fc92e6af69ecf045a5b247b342b06ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D21.prefab using Guid(8fc92e6af69ecf045a5b247b342b06ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf871bc7002819e0839537ff263c972') in 0.017082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D1.prefab
+  artifactKey: Guid(47bbce8398d72ac438958732815b3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D1.prefab using Guid(47bbce8398d72ac438958732815b3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08459a6836f4f2da00b4f8f057dd7c07') in 0.017993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_WaterCube.prefab
+  artifactKey: Guid(538a882e7e88a1e439be1b024133411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_WaterCube.prefab using Guid(538a882e7e88a1e439be1b024133411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d037958d935350a60e403b50533f1f') in 0.233928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.633365 seconds.
+  path: Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D25.prefab
+  artifactKey: Guid(573e9e6788241404eae828da292162e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D25.prefab using Guid(573e9e6788241404eae828da292162e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fd740e1e387e1850ef3cfa12f1c073') in 0.017110 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011261 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1853ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1540ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (833ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (552ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6617 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (3.0 MB). Loaded Objects now: 8000.
+Memory consumption went from 400.1 MB to 397.1 MB.
+Total: 7.558200 ms (FindLiveObjects: 1.118100 ms CreateObjectMapping: 0.201500 ms MarkObjects: 4.029200 ms  DeleteObjects: 2.208000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
