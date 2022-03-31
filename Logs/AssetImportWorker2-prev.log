@@ -2242,3 +2242,265 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6579 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.6 MB). Loaded Objects now: 7670.
+Memory consumption went from 351.6 MB to 350.0 MB.
+Total: 5.331500 ms (FindLiveObjects: 0.709100 ms CreateObjectMapping: 0.186100 ms MarkObjects: 3.492400 ms  DeleteObjects: 0.942600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009296 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <13c5ad68fffb46969f1ca1df233d1e4d>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <13c5ad68fffb46969f1ca1df233d1e4d>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <13c5ad68fffb46969f1ca1df233d1e4d>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <13c5ad68fffb46969f1ca1df233d1e4d>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'MoreMountains.TopDownEngine.Cinemachine' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Common/ScriptsCinemachine/MoreMountains.TopDownEngine.Cinemachine.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Cinemachine' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Common/ScriptsCinemachine/MoreMountains.TopDownEngine.Cinemachine.asmdef)
+Assembly with name 'Lofelt.NiceVibrations.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/NiceVibrations/Scripts/Editor/Lofelt.NiceVibrations.Editor.asmdef)
+Assembly with name 'Lofelt.NiceVibrations.Editor' already exists (Assets/3RD_SOFTWARE/Feel/NiceVibrations/Scripts/Editor/Lofelt.NiceVibrations.Editor.asmdef)
+Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
+Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/3RD_SOFTWARE/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.InputSystem' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Common/ScriptsInputSystem/MoreMountains.TopDownEngine.InputSystem.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.InputSystem' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Common/ScriptsInputSystem/MoreMountains.TopDownEngine.InputSystem.asmdef)
+Assembly with name 'MoreMountains.InventoryEngine.Demos' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Scripts/MoreMountains.InventoryEngine.Demos.asmdef)
+Assembly with name 'MoreMountains.InventoryEngine.Demos' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/Demos/PixelRogue/Scripts/MoreMountains.InventoryEngine.Demos.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Demo.Editor' already exists (Assets/3RD_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/Editor/KinoBloom.Editor.asmdef)
+Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
+Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.PostProcessing' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Common/ScriptsPostProcessing/MoreMountains.TopDownEngine.PostProcessing.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.PostProcessing' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Common/ScriptsPostProcessing/MoreMountains.TopDownEngine.PostProcessing.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
+Assembly with name 'MoreMountains.Tools.TextMeshPro' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/ToolsForTextMeshPro/MoreMountains.Tools.TextMeshPro.asmdef)
+Assembly with name 'MoreMountains.Tools.TextMeshPro' already exists (Assets/3RD_SOFTWARE/Feel/MMTools/ToolsForTextMeshPro/MoreMountains.Tools.TextMeshPro.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/Tilemap/2dExtras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/Tilemap/2dExtras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'MoreMountains.Feel.Demos.HDRP' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemosHDRP/MoreMountains.Feel.Demos.HDRP.asmdef)
+Assembly with name 'MoreMountains.Feel.Demos.HDRP' already exists (Assets/3RD_SOFTWARE/Feel/FeelDemosHDRP/MoreMountains.Feel.Demos.HDRP.asmdef)
+Assembly with name 'ToonyColorsPro.Runtime' already exists (Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Scripts/ToonyColorsPro.Runtime.asmdef)
+Assembly with name 'ToonyColorsPro.Runtime' already exists (Assets/3RD_SOFTWARE/JMO Assets/Toony Colors Pro/Scripts/ToonyColorsPro.Runtime.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'MoreMountains.InventoryEngine' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Scripts/MoreMountains.InventoryEngine.asmdef)
+Assembly with name 'MoreMountains.InventoryEngine' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Scripts/MoreMountains.InventoryEngine.asmdef)
+Assembly with name 'Dreamteck.Splines' already exists (Assets/3RD_PARTY_SOFTWARE/Dreamteck/Splines/Dreamteck.Splines.asmdef)
+Assembly with name 'Dreamteck.Splines' already exists (Assets/3RD_SOFTWARE/Dreamteck/Splines/Dreamteck.Splines.asmdef)
+Assembly with name 'Lofelt.NiceVibrations.Demo' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/NiceVibrations/Demo/Lofelt.NiceVibrations.Demo.asmdef)
+Assembly with name 'Lofelt.NiceVibrations.Demo' already exists (Assets/3RD_SOFTWARE/Feel/NiceVibrations/Demo/Lofelt.NiceVibrations.Demo.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Common/Scripts/MoreMountains.TopDownEngine.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Common/Scripts/MoreMountains.TopDownEngine.asmdef)
+Assembly with name 'ToonyColorsPro.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Editor/ToonyColorsPro.Editor.asmdef)
+Assembly with name 'ToonyColorsPro.Editor' already exists (Assets/3RD_SOFTWARE/JMO Assets/Toony Colors Pro/Editor/ToonyColorsPro.Editor.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
+Assembly with name 'ToonyColorsPro2.Demo' already exists (Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/ToonyColorsPro.Demo.asmdef)
+Assembly with name 'ToonyColorsPro2.Demo' already exists (Assets/3RD_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/ToonyColorsPro.Demo.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/Tilemap/2dExtras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/Tilemap/2dExtras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
+Assembly with name 'MoreMountains.InventoryEngine.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Editor/MoreMountains.InventoryEngine.Editor.asmdef)
+Assembly with name 'MoreMountains.InventoryEngine.Editor' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/InventoryEngine/InventoryEngine/Editor/MoreMountains.InventoryEngine.Editor.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
+Assembly with name 'MoreMountains.Interface.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Editor/MoreMountains.Interface.Editor.asmdef)
+Assembly with name 'MoreMountains.Interface.Editor' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Editor/MoreMountains.Interface.Editor.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'KinoBloom.Runtime' already exists (Assets/3RD_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/Common Demo Assets/Kino Bloom/KinoBloom.Runtime.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
+Assembly with name 'Dreamteck.Utilities' already exists (Assets/3RD_PARTY_SOFTWARE/Dreamteck/Utilities/Dreamteck.Utilities.asmdef)
+Assembly with name 'Dreamteck.Utilities' already exists (Assets/3RD_SOFTWARE/Dreamteck/Utilities/Dreamteck.Utilities.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/Tilemap/2dExtras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/Tilemap/2dExtras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'MoreMountains.Feel.Demos' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/MoreMountains.Feel.Demos.asmdef)
+Assembly with name 'MoreMountains.Feel.Demos' already exists (Assets/3RD_SOFTWARE/Feel/FeelDemos/MoreMountains.Feel.Demos.asmdef)
+Assembly with name 'Dreamteck.Splines.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/Dreamteck/Splines/Editor/Dreamteck.Splines.Editor.asmdef)
+Assembly with name 'Dreamteck.Splines.Editor' already exists (Assets/3RD_SOFTWARE/Dreamteck/Splines/Editor/Dreamteck.Splines.Editor.asmdef)
+Assembly with name 'MoreMountains.Interface' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Scripts/MoreMountains.Interface.asmdef)
+Assembly with name 'MoreMountains.Interface' already exists (Assets/3RD_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Common/Scripts/MoreMountains.Interface.asmdef)
+Assembly with name 'MoreMountains.Tools.Feedbacks' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/ToolsForMMFeedbacks/Tools/MoreMountains.Tools.Feedbacks.asmdef)
+Assembly with name 'MoreMountains.Tools.Feedbacks' already exists (Assets/3RD_SOFTWARE/Feel/MMTools/ToolsForMMFeedbacks/Tools/MoreMountains.Tools.Feedbacks.asmdef)
+Assembly with name 'MoreMountains.Tools.Feedbacks.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/ToolsForMMFeedbacks/Editor/MoreMountains.Tools.Feedbacks.Editor.asmdef)
+Assembly with name 'MoreMountains.Tools.Feedbacks.Editor' already exists (Assets/3RD_SOFTWARE/Feel/MMTools/ToolsForMMFeedbacks/Editor/MoreMountains.Tools.Feedbacks.Editor.asmdef)
+Assembly with name 'Dreamteck.Utilities.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/Dreamteck/Utilities/Editor/Dreamteck.Utilities.Editor.asmdef)
+Assembly with name 'Dreamteck.Utilities.Editor' already exists (Assets/3RD_SOFTWARE/Dreamteck/Utilities/Editor/Dreamteck.Utilities.Editor.asmdef)
+Assembly with name 'Lofelt.NiceVibrations' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/NiceVibrations/Lofelt.NiceVibrations.asmdef)
+Assembly with name 'Lofelt.NiceVibrations' already exists (Assets/3RD_SOFTWARE/Feel/NiceVibrations/Lofelt.NiceVibrations.asmdef)
+Assembly with name 'MoreMountains.Feel.Demos.URP' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemosURP/MoreMountains.Feel.Demos.URP.asmdef)
+Assembly with name 'MoreMountains.Feel.Demos.URP' already exists (Assets/3RD_SOFTWARE/Feel/FeelDemosURP/MoreMountains.Feel.Demos.URP.asmdef)
+Assembly with name 'MoreMountains.Tools.Cinemachine' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/ToolsForCinemachine/MoreMountains.Tools.Cinemachine.asmdef)
+Assembly with name 'MoreMountains.Tools.Cinemachine' already exists (Assets/3RD_SOFTWARE/Feel/MMTools/ToolsForCinemachine/MoreMountains.Tools.Cinemachine.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Common/Editor/MoreMountains.TopDownEngine.Editor.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Editor' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Common/Editor/MoreMountains.TopDownEngine.Editor.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Demos' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/MoreMountains.TopDownEngine.Demos.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Demos' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Demos/MoreMountains.TopDownEngine.Demos.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Cinemachine.Editor' already exists (Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Common/ScriptsCinemachine/Editor/MoreMountains.TopDownEngine.Cinemachine.Editor.asmdef)
+Assembly with name 'MoreMountains.TopDownEngine.Cinemachine.Editor' already exists (Assets/3RD_SOFTWARE/TopDownEngine/Common/ScriptsCinemachine/Editor/MoreMountains.TopDownEngine.Cinemachine.Editor.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
+Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/3RD_SOFTWARE/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
+Assembly with name 'MoreMountains.Tools' already exists (Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
+Assembly with name 'MoreMountains.Tools' already exists (Assets/3RD_SOFTWARE/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <13c5ad68fffb46969f1ca1df233d1e4d>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <4392bd4b1cc44e5fa38e8fbdbabf7b07>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <13c5ad68fffb46969f1ca1df233d1e4d>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1738ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1507ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6579 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.6 MB). Loaded Objects now: 7684.
+Memory consumption went from 350.9 MB to 349.3 MB.
+Total: 6.702900 ms (FindLiveObjects: 0.981600 ms CreateObjectMapping: 0.366500 ms MarkObjects: 4.220700 ms  DeleteObjects: 1.132000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

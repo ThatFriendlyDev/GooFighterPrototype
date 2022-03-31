@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - World
   - NoMask
+  - Fuel
   layers:
   - Default
   - TransparentFX
@@ -31,8 +32,6 @@ TagManager:
   - Projectile
   - Camera1
   - Camera2
-  - Camera3
-  - Camera4
   - 
   - 
   - 
@@ -42,6 +41,8 @@ TagManager:
   - 
   - 
   - 
+  - Enemy
+  - Item
   m_SortingLayers:
   - name: Default
     uniqueID: 0
