@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5796734635270587128}
-  - component: {fileID: 5796734635270587129}
+  - component: {fileID: 1578211882919719132}
+  - component: {fileID: 1494563420}
   - component: {fileID: 5796734635270587125}
   - component: {fileID: 5796734635270587131}
   - component: {fileID: 5796734635270587130}
-  - component: {fileID: 1494563420}
   m_Layer: 31
   m_Name: Fuel
   m_TagString: Fuel
@@ -36,7 +36,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5796734635270587129
+--- !u!114 &1578211882919719132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,7 +45,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 5796734635270587124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fc0d3324bad04d4bad9ee272a532c57, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c3817ceceb8307498abb2bd3a9cb4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollected: 0
+--- !u!114 &1494563420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796734635270587124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c5d7b90c19788540af4d5e7b7701a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &5796734635270587125
@@ -111,15 +124,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1494563420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796734635270587124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c5d7b90c19788540af4d5e7b7701a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

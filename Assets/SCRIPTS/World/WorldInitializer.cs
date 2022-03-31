@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class WorldInitializer : MonoBehaviour
 {
-    public Transform fuel;
 
 	static WorldInitializer _instance;
 

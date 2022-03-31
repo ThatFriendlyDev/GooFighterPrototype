@@ -64,6 +64,10 @@
     <Compile Include="Assets\SCRIPTS\Utility\PoolObject.cs" />
     <Compile Include="Assets\SCRIPTS\World\WorldInitializer.cs" />
     <Compile Include="Assets\SCRIPTS\World\FuelSpawner.cs" />
+    <Compile Include="Assets\SCRIPTS\Utility\TAGS.cs" />
+    <Compile Include="Assets\SCRIPTS\Collectables\BoostItem.cs" />
+    <Compile Include="Assets\SCRIPTS\World\BoostSpawner.cs" />
+    <Compile Include="Assets\SCRIPTS\Utility\ResourceManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3RD_PARTY_SOFTWARE\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
