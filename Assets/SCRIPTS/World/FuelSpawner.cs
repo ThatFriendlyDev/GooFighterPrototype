@@ -12,10 +12,10 @@ public class FuelSpawner : MonoBehaviour
         if(Time.time > lastFuelSpawnedTimestamp + fuelSpawnCooldown)
 		{
             lastFuelSpawnedTimestamp = Time.time;
-            var x = Random.Range(-20, 20);
-            var z = Random.Range(-20, 20);
+            var x = Random.Range(-10, 10);
+            var z = Random.Range(-10, 10);
             var position = new Vector3(x, 1, z);
-            PoolManager.instance.reuseObject(ResourceManager.instance.fuel.gameObject, position, Quaternion.identity, Vector3.one);
+            PoolManager.instance.reuseObject(ResourceManager.instance.fuel.gameObject, position, Quaternion.identity, 0.5f * Vector3.one);
 		}
     }
 }

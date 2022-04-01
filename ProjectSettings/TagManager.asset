@@ -11,6 +11,7 @@ TagManager:
   - NoMask
   - Fuel
   - Boost
+  - DropZone
   layers:
   - Default
   - TransparentFX
@@ -41,7 +42,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Interactable
   - Enemy
   - Item
   m_SortingLayers:

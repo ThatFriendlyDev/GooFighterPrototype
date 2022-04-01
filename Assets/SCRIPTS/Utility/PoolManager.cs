@@ -58,6 +58,7 @@ public class PoolManager : MonoBehaviour
 			ObjectInstance objectToReuse = poolDictionary[poolKey].Dequeue();
 			poolDictionary[poolKey].Enqueue(objectToReuse);
 
+			objectToReuse.GetTransform().gameObject.SetActive(true);
 			objectToReuse.Reuse(position, rotation, scale);
 			return objectToReuse;
 		}

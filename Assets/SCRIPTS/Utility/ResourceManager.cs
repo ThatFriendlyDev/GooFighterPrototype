@@ -7,6 +7,7 @@ public class ResourceManager : MonoBehaviour
 	[Header("Pool Objects")]
 	public Transform fuel;
 	public Transform boost;
+	public Transform enemy;
 
 	static ResourceManager _instance;
 

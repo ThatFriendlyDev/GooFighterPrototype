@@ -5,14 +5,22 @@ using MoreMountains.TopDownEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Layers")]
+    public LayerMask layerMaskForInteractable;
     public LayerMask layerMaskForItems;
+    [Space(20)]
     public Transform fuelContainer;
+    private List<Transform> collectedFuelItems;
 
     public CharacterMovement characterMovement;
 
-    private int fuelCollected;
-    // Start is called before the first frame update
-    void Start()
+	private void Awake()
+	{
+        collectedFuelItems = new List<Transform>();
+    }
+
+	// Start is called before the first frame update
+	void Start()
     {
     }
 
@@ -41,7 +49,22 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-	}
+
+        bool hasCollidedWithInteractable = (1 << otherGameObject.transform.gameObject.layer) == this.layerMaskForInteractable.value;
+        if (hasCollidedWithInteractable)
+		{
+            bool isDropZone = otherGameObject.gameObject.CompareTag(TAGS.DROP_ZONE);
+            if (isDropZone)
+			{
+
+                otherGameObject.GetComponent<DropZoneCtrl>().AddFuelItems(collectedFuelItems);
+                collectedFuelItems.Clear();
+            }
+        }
+
+    }
+
+
 
     private void CollectBoost(BoostItem boost)
     {
@@ -59,9 +82,10 @@ public class PlayerController : MonoBehaviour
     private void CollectFuel(GameObject otherGameObject, Item fuel)
 	{
         otherGameObject.transform.parent = fuelContainer;
-        otherGameObject.transform.localPosition = 1.1f * Vector3.up * fuelCollected;
+        otherGameObject.transform.localPosition = 0.6f * Vector3.up * collectedFuelItems.Count;
         otherGameObject.transform.localRotation = Quaternion.Euler(Vector3.zero);
-        fuelCollected += 1;
         fuel.isCollected = true;
+        collectedFuelItems.Add(otherGameObject.transform);
     }
+     
 }
