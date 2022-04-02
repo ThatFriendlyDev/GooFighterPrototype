@@ -54,9 +54,12 @@ namespace MoreMountains.Tools
             }
             foreach (AITransition transition in Transitions)
             {
-                if (transition.Decision != null)
+                if (transition.Decisions != null)
                 {
-                    transition.Decision.OnEnterState();
+					foreach (var decision in transition.Decisions)
+                    {
+                        decision.OnEnterState();
+                    }
                 }
             }
         }
@@ -72,9 +75,12 @@ namespace MoreMountains.Tools
             }
             foreach (AITransition transition in Transitions)
             {
-                if (transition.Decision != null)
+                if (transition.Decisions != null)
                 {
-                    transition.Decision.OnExitState();
+                    foreach (var decision in transition.Decisions)
+                    {
+                        decision.OnExitState();
+                    }
                 }
             }
         }
@@ -106,9 +112,19 @@ namespace MoreMountains.Tools
             if (Transitions.Count == 0) { return; }
             for (int i = 0; i < Transitions.Count; i++) 
             {
-                if (Transitions[i].Decision != null)
+                if (Transitions[i].Decisions != null)
                 {
-                    if (Transitions[i].Decision.Decide())
+                    bool transitionToTrueState = true;
+					foreach(var decision in Transitions[i].Decisions)
+					{
+                        if (!decision.Decide())
+						{
+                            transitionToTrueState = false;
+                            break;
+						}
+					}
+ 
+                    if (transitionToTrueState)
                     {
                         if (!string.IsNullOrEmpty(Transitions[i].TrueState))
                         {

@@ -11,7 +11,7 @@ namespace MoreMountains.Tools
     public class AITransition 
     {
         /// this transition's decision
-        public AIDecision Decision;
+        public AIDecision[] Decisions;
         /// the state to transition to if this Decision returns true
         public string TrueState;
         /// the state to transition to if this Decision returns false

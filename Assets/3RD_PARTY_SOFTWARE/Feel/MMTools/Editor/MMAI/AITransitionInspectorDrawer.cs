@@ -25,8 +25,8 @@ namespace MoreMountains.Tools
             {
                 var height = Mathf.Max(LineHeight, EditorGUI.GetPropertyHeight(a));
                 position.height = height;
-
-                if(a.name == "Decision")
+ 
+                if (a.name == "Decision")
                 {
                     // draw the decision dropdown
                     DrawSelectionDropdown(position, prop);
@@ -50,8 +50,18 @@ namespace MoreMountains.Tools
                 }
                 else
                 {
-                    EditorGUI.PropertyField(position, a, new GUIContent(a.name));
-                    position.y += height;
+                    if (!a.name.Equals("data") && !a.name.Equals("size"))
+					{
+                        Debug.Log(a.name);
+                        EditorGUI.PropertyField(position, a, new GUIContent(a.name));
+                        position.y += height;
+                    }
+					else
+					{
+
+					}
+					
+ 
                 }
             }
         }
@@ -117,7 +127,11 @@ namespace MoreMountains.Tools
                 }
                 else
                 {
-                    height += h;
+                    if (!a.name.Equals("data") && !a.name.Equals("size"))
+                    {
+                        height += h;
+                    }
+                     
                 }
             }
             return height;

@@ -2502,18 +2502,6 @@ Transform:
   m_Father: {fileID: 894379232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2029594008 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1122262166890476216}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eec89e4158bf96841b9bc830fc5385ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2043279810
 GameObject:
   m_ObjectHideFlags: 0
@@ -9753,16 +9741,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3665679411541333393, guid: 97b881cf76c1af44baddc439c8d048a8,
-        type: 3}
-      propertyPath: aiBrain
-      value: 
-      objectReference: {fileID: 2029594008}
-    - target: {fileID: 3665679411541333393, guid: 97b881cf76c1af44baddc439c8d048a8,
-        type: 3}
-      propertyPath: spawnDuration
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Actions.array.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[1].TrueState
+      value: RunTowardsPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[0].Decisions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[1].Decisions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[0].Decisions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1122262166890476217}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[0].Decisions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1122262166890476217}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[1].Decisions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1122262166890476217}
+    - target: {fileID: 1603499943, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+      propertyPath: States.Array.data[0].Transitions.array.Array.data[1].Decisions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1122262166890476217}
     - target: {fileID: 7959721616278102031, guid: 97b881cf76c1af44baddc439c8d048a8,
         type: 3}
       propertyPath: m_RootOrder
@@ -9825,6 +9843,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b881cf76c1af44baddc439c8d048a8, type: 3}
+--- !u!114 &1122262166890476217 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1099420173, guid: 97b881cf76c1af44baddc439c8d048a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1122262166890476216}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210ecb3d02181d244935dc0092d62a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1592226061046156786
 MonoBehaviour:
   m_ObjectHideFlags: 0
