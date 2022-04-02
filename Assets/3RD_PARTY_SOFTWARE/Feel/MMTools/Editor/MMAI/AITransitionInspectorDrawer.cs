@@ -52,15 +52,11 @@ namespace MoreMountains.Tools
                 {
                     if (!a.name.Equals("data") && !a.name.Equals("size"))
 					{
-                        Debug.Log(a.name);
+                        
                         EditorGUI.PropertyField(position, a, new GUIContent(a.name));
                         position.y += height;
-                    }
-					else
-					{
-
-					}
-					
+                    } 
+					 
  
                 }
             }

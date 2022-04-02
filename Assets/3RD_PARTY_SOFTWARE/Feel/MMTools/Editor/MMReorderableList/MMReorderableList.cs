@@ -146,7 +146,7 @@ namespace MoreMountains.Tools
 			verticalSpacing = 2f;
 #endif
 			headerHeight = 18f;
-			footerHeight = 13f;
+			footerHeight = 25f;
 			slideEasing = 0.15f;
 			expandable = true;
 			showDefaultBackground = true;
@@ -719,7 +719,17 @@ namespace MoreMountains.Tools
 			}
 			else {
 
-				EditorGUI.PropertyField(renderRect, element, label, true);
+				if (element.type.Equals("AITransition"))
+				{
+					GUIContent test = new GUIContent();
+					test.text = "test";
+					EditorGUI.PropertyField(renderRect, element, test, true);
+ 
+				} else
+				{
+					EditorGUI.PropertyField(renderRect, element, label, true);
+				}
+				 
 			}
 
 			//handle context click
@@ -755,7 +765,7 @@ namespace MoreMountains.Tools
 			elementLabel.text = !string.IsNullOrEmpty(name) ? name : element.displayName;
 			elementLabel.tooltip = element.tooltip;
 			elementLabel.image = elementIcon;
-
+		 
 			return elementLabel;
 		}
 

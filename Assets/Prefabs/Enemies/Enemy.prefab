@@ -222,7 +222,8 @@ MonoBehaviour:
       - {fileID: 663565339}
     Transitions:
       array:
-      - Decision: {fileID: 1099420173}
+      - Decisions:
+        - {fileID: 1099420173}
         TrueState: RunTowardsPlayer
         FalseState: 
   - StateName: RunTowardsPlayer
