@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using Sirenix.Utilities.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,19 +23,19 @@ namespace MoreMountains.Tools
     {
         /// the name of the state (will be used as a reference in Transitions
         [GUIColor(0.6f, 0.6f, 1f)]
-        [PreviewField]
-        [TableColumnWidth(20, true)]
+        [TableColumnWidth(20, true), ListDrawerSettings(DraggableItems = false)]
         public string StateName;
          
-        [TableColumnWidth(200, true)]
+        [TableColumnWidth(200, true), ListDrawerSettings(DraggableItems = false)]
         public List<AIAction> Actions; 
-        [TableColumnWidth(500, true)]
-        public List<AITransition> Transitions;/*
-
-        /// a list of actions to perform in this state
-        public List<AIAction> Actions;
-        /// a list of transitions to evaluate to exit this state
-        public List<AITransition> Transitions;*/
+        [TableColumnWidth(500, true), ListDrawerSettings(DraggableItems = false, ListElementLabelName = "TransitionLabel", ElementColor = "TransitionsColor", OnEndListElementGUI = "OnTransitionElementEndDraw")]
+        public List<AITransition> Transitions;
+        [HideInInspector]
+        public Color TransitionsColor = new Color(0.3f, 0.3f, 0.3f);
+        private void OnTransitionElementEndDraw(int index)
+		{
+            SirenixEditorGUI.DrawThickHorizontalSeparator();
+        }
 
         protected AIBrain _brain;
 
@@ -58,9 +59,9 @@ namespace MoreMountains.Tools
             }
             foreach (AITransition transition in Transitions)
             {
-                if (transition.Decisions != null)
+                if (transition.DecisionsInTransition != null)
                 {
-					foreach (var decisionStruct in transition.Decisions)
+					foreach (var decisionStruct in transition.DecisionsInTransition)
                     {
                         decisionStruct.decision.OnEnterState();
                     }
@@ -79,9 +80,9 @@ namespace MoreMountains.Tools
             }
             foreach (AITransition transition in Transitions)
             {
-                if (transition.Decisions != null)
+                if (transition.DecisionsInTransition != null)
                 {
-                    foreach (var decisionStruct in transition.Decisions)
+                    foreach (var decisionStruct in transition.DecisionsInTransition)
                     {
                         decisionStruct.decision.OnExitState();
                     }
@@ -116,11 +117,11 @@ namespace MoreMountains.Tools
             if (Transitions.Count == 0) { return; }
             for (int i = 0; i < Transitions.Count; i++) 
             {
-                if (Transitions[i].Decisions != null)
+                if (Transitions[i].DecisionsInTransition != null)
                 {
                     bool transitionToTrueState = true;
                     List<bool> decisionResultsList = new List<bool>();
-					foreach(var decisionStruct in Transitions[i].Decisions)
+					foreach(var decisionStruct in Transitions[i].DecisionsInTransition)
 					{   
                         
                         var decisionResult = decisionStruct.decision.Decide();
@@ -132,9 +133,9 @@ namespace MoreMountains.Tools
                         decisionResultsList.Add(decisionResult);
                     }
 
-					for (int j = 0; j < Transitions[i].Decisions.Length; j++)
+					for (int j = 0; j < Transitions[i].DecisionsInTransition.Length; j++)
 					{
-                        Transitions[i].Decisions[j].result = decisionResultsList[j];
+                        Transitions[i].DecisionsInTransition[j].result = decisionResultsList[j];
                     }
  
                     if (transitionToTrueState)
