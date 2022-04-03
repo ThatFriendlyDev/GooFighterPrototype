@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,11 +11,22 @@ namespace MoreMountains.Tools
     [System.Serializable]
     public class AITransition 
     {
-        /// this transition's decision
-        public AIDecision[] Decisions;
+ 
+        public AIDecisionStruct[] Decisions;
         /// the state to transition to if this Decision returns true
+        [GUIColor(0.6f, 1f, 0.4f)]
         public string TrueState;
         /// the state to transition to if this Decision returns false
+        [GUIColor(1, 0.6f, 0.4f)]
         public string FalseState;
+ 
+    }
+
+
+    [System.Serializable]
+    public struct AIDecisionStruct
+    {
+        public AIDecision decision;
+        public bool result;
     }
 }

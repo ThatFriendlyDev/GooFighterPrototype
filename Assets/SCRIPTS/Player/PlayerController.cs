@@ -8,7 +8,17 @@ public class PlayerController : MonoBehaviour
     [Header("Layers")]
     public LayerMask layerMaskForInteractable;
     public LayerMask layerMaskForItems;
+    public LayerMask layerMaskForEnemies;
     [Space(20)]
+
+    [Header("Enemies Detection Settings")]
+    public float enemyDetectRadius;
+    public float enemyDetectCooldown;
+    private float lastEnemyDetectionTimestamp;
+    private Collider[] enemiesWithinRadiusList;
+    private Transform nearestEnemy;
+    
+
     public Transform fuelContainer;
     private List<Transform> collectedFuelItems;
 
@@ -24,7 +34,39 @@ public class PlayerController : MonoBehaviour
     {
     }
 
- 
+	private void Update()
+	{
+        bool shouldCheckForEnemies = Time.time > enemyDetectCooldown + lastEnemyDetectionTimestamp;
+        if (shouldCheckForEnemies)
+		{
+            lastEnemyDetectionTimestamp = Time.time;
+            enemiesWithinRadiusList = Physics.OverlapSphere(transform.position, enemyDetectRadius, layerMaskForEnemies.value);
+            
+            if (enemiesWithinRadiusList.Length > 0)
+			{
+                nearestEnemy = enemiesWithinRadiusList[0].transform;
+                var distanceToNearestEnemy = Vector3.Distance(transform.position, nearestEnemy.position);
+
+                for (int i = 0; i < enemiesWithinRadiusList.Length; i++)
+                {
+                    var distanceToNextEnemy = Vector3.Distance(transform.position, enemiesWithinRadiusList[i].transform.position);
+                    if (distanceToNextEnemy < distanceToNearestEnemy)
+					{
+                        nearestEnemy = enemiesWithinRadiusList[i].transform;
+                        distanceToNearestEnemy = distanceToNextEnemy;
+                    }
+                }
+            }
+        }
+
+        if (nearestEnemy)
+		{
+             transform.rotation = Quaternion.LookRotation((nearestEnemy.position - transform.position).normalized);
+        }
+       
+        
+	}
+
 
 	private void OnTriggerEnter(Collider otherGameObject)
 	{
@@ -63,9 +105,7 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
-
-
+ 
     private void CollectBoost(BoostItem boost)
     {
         characterMovement.MovementSpeed = boost.boostedSpeed;

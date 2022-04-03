@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCollected: 0
   boostedSpeed: 10
+  boostDuration: 5
 --- !u!114 &3957459926753658254
 MonoBehaviour:
   m_ObjectHideFlags: 0

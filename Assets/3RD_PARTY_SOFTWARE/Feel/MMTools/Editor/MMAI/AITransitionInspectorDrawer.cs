@@ -4,7 +4,7 @@ using UnityEditor;
 
 namespace MoreMountains.Tools
 {
-    [CustomPropertyDrawer(typeof(AITransition))]
+   
     public class AITransitionPropertyInspector : PropertyDrawer
     {
         const float LineHeight = 16f;
@@ -21,6 +21,8 @@ namespace MoreMountains.Tools
         public override void OnGUI(Rect rect, SerializedProperty prop, GUIContent label)
         {
             Rect position = rect;
+          
+
             foreach (SerializedProperty a in prop)
             {
                 var height = Mathf.Max(LineHeight, EditorGUI.GetPropertyHeight(a));

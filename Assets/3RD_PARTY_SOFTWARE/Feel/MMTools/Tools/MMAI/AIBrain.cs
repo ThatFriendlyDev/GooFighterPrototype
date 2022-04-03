@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,6 +18,7 @@ namespace MoreMountains.Tools
         [MMReadOnly]
         public GameObject Owner;
         /// the collection of states
+        [TableList]
         public List<AIState> States;
         /// this brain's current state
         public AIState CurrentState { get; protected set; }

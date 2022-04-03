@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,12 +21,15 @@ namespace MoreMountains.Tools
     public class AIState 
     {
         /// the name of the state (will be used as a reference in Transitions
+        [GUIColor(0.6f, 0.6f, 1f)]
+        [PreviewField]
+        [TableColumnWidth(20, true)]
         public string StateName;
-
-        [MMReorderableAttribute(null, "Action", null)]
-        public AIActionsList Actions;
-        [MMReorderableAttribute(null, "Transition", null)]
-        public AITransitionsList Transitions;/*
+         
+        [TableColumnWidth(200, true)]
+        public List<AIAction> Actions; 
+        [TableColumnWidth(500, true)]
+        public List<AITransition> Transitions;/*
 
         /// a list of actions to perform in this state
         public List<AIAction> Actions;
@@ -56,9 +60,9 @@ namespace MoreMountains.Tools
             {
                 if (transition.Decisions != null)
                 {
-					foreach (var decision in transition.Decisions)
+					foreach (var decisionStruct in transition.Decisions)
                     {
-                        decision.OnEnterState();
+                        decisionStruct.decision.OnEnterState();
                     }
                 }
             }
@@ -77,9 +81,9 @@ namespace MoreMountains.Tools
             {
                 if (transition.Decisions != null)
                 {
-                    foreach (var decision in transition.Decisions)
+                    foreach (var decisionStruct in transition.Decisions)
                     {
-                        decision.OnExitState();
+                        decisionStruct.decision.OnExitState();
                     }
                 }
             }
@@ -115,14 +119,23 @@ namespace MoreMountains.Tools
                 if (Transitions[i].Decisions != null)
                 {
                     bool transitionToTrueState = true;
-					foreach(var decision in Transitions[i].Decisions)
-					{
-                        if (!decision.Decide())
+                    List<bool> decisionResultsList = new List<bool>();
+					foreach(var decisionStruct in Transitions[i].Decisions)
+					{   
+                        
+                        var decisionResult = decisionStruct.decision.Decide();
+                        if (!decisionResult)
 						{
                             transitionToTrueState = false;
-                            break;
-						}
-					}
+                        }
+
+                        decisionResultsList.Add(decisionResult);
+                    }
+
+					for (int j = 0; j < Transitions[i].Decisions.Length; j++)
+					{
+                        Transitions[i].Decisions[j].result = decisionResultsList[j];
+                    }
  
                     if (transitionToTrueState)
                     {
