@@ -22,6 +22,7 @@ namespace MoreMountains.Tools
         public List<AIState> States;
         /// this brain's current state
         public AIState CurrentState { get; protected set; }
+        public string CurrentStateName;
         /// the time we've spent in the current state
         [MMReadOnly]
         public float TimeInThisState;
@@ -134,6 +135,7 @@ namespace MoreMountains.Tools
                 CurrentState = FindState(newStateName);
                 if (CurrentState != null)
                 {
+                    CurrentStateName = newStateName;
                     CurrentState.EnterState();
                 }
                 return;

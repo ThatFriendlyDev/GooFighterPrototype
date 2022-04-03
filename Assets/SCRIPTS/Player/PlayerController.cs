@@ -22,7 +22,10 @@ public class PlayerController : MonoBehaviour
     public Transform fuelContainer;
     private List<Transform> collectedFuelItems;
 
+    [Header("Player Components")]
     public CharacterMovement characterMovement;
+    public CharacterOrientation3D characterOrientation;
+    public Animator charaterAnimator;
 
 	private void Awake()
 	{
@@ -56,12 +59,22 @@ public class PlayerController : MonoBehaviour
                         distanceToNearestEnemy = distanceToNextEnemy;
                     }
                 }
-            }
+            } else
+			{
+                nearestEnemy = null;
+			}
         }
 
         if (nearestEnemy)
 		{
-             transform.rotation = Quaternion.LookRotation((nearestEnemy.position - transform.position).normalized);
+            characterOrientation.RotationMode = CharacterOrientation3D.RotationModes.WeaponDirection;
+            charaterAnimator.SetBool("IsShootingParam", true);
+            // transform.rotation = Quaternion.LookRotation((nearestEnemy.position - transform.position).normalized);
+        }
+		else
+        {
+            charaterAnimator.SetBool("IsShootingParam", false);
+            characterOrientation.RotationMode = CharacterOrientation3D.RotationModes.MovementDirection;
         }
        
         
@@ -121,10 +134,10 @@ public class PlayerController : MonoBehaviour
 
     private void CollectFuel(GameObject otherGameObject, Item fuel)
 	{
-        otherGameObject.transform.parent = fuelContainer;
-        otherGameObject.transform.localPosition = 0.6f * Vector3.up * collectedFuelItems.Count;
-        otherGameObject.transform.localRotation = Quaternion.Euler(Vector3.zero);
-        fuel.isCollected = true;
+        //otherGameObject.transform.parent = fuelContainer;
+        // otherGameObject.transform.localPosition = 0.6f * Vector3.up * collectedFuelItems.Count;
+        //otherGameObject.transform.localRotation = Quaternion.Euler(Vector3.zero);
+        fuel.OnCollected(fuelContainer, 0.6f * Vector3.up * collectedFuelItems.Count);
         collectedFuelItems.Add(otherGameObject.transform);
     }
      

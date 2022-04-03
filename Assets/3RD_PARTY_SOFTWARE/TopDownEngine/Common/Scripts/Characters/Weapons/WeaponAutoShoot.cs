@@ -20,6 +20,10 @@ namespace MoreMountains.TopDownEngine
         protected bool _hasWeaponAndAutoAim;
         protected float _targetAcquiredAt;
         protected Transform _lastTarget;
+
+        [SerializeField]
+        private float shootProjectileCooldown;
+        private float lastShootProjectileTimestamp;
         
         /// <summary>
         /// On Awake we initialize our component
@@ -71,7 +75,12 @@ namespace MoreMountains.TopDownEngine
 
                 if (Time.time - _targetAcquiredAt >= DelayBeforeShootAfterAcquiringTarget)
                 {
-                    _weapon.WeaponInputStart();    
+                    if (Time.time > lastShootProjectileTimestamp + shootProjectileCooldown)
+                    {
+                        lastShootProjectileTimestamp = Time.time;
+                        _weapon.WeaponInputStart();
+                    }
+                        
                 }
                 _lastTarget = _weaponAutoAim.Target;
             }

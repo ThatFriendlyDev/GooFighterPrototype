@@ -326,6 +326,7 @@ namespace MoreMountains.TopDownEngine
 
 			_currentInput.x = _horizontalMovement;
 			_currentInput.y = _verticalMovement;
+
             
             _normalizedInput = _currentInput.normalized;
 
@@ -355,6 +356,8 @@ namespace MoreMountains.TopDownEngine
             _movementVector.y = 0f;
 			_movementVector.z = _lerpedInput.y;
 
+      
+
             if (InterpolateMovementSpeed)
             {
                 _movementSpeed = Mathf.Lerp(_movementSpeed, MovementSpeed * ContextSpeedMultiplier * MovementSpeedMultiplier, interpolationSpeed * Time.deltaTime);
@@ -375,8 +378,12 @@ namespace MoreMountains.TopDownEngine
             {
                 _movementVector = Vector3.zero;
             }
-            
-			_controller.SetMovement (_movementVector);
+
+            if (base._character.CharacterType.Equals(Character.CharacterTypes.Player))
+            {
+                _animator.SetFloat("CurrentSpeedParam", _currentInput.magnitude);
+            }
+            _controller.SetMovement (_movementVector);
 		} 
 
 		/// <summary>

@@ -827,6 +827,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{879E1A27-F9B3-7922-7E10-82BB9CD78B4F}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.Cinemachine.csproj">
       <Project>{C30583C5-1DBB-538B-3632-BB6853160E01}</Project>
       <Name>MoreMountains.TopDownEngine.Cinemachine</Name>

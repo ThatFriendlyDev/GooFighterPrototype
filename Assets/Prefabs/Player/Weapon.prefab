@@ -28,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5779498639693675309}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.99641573, z: 0, w: 0.08459093}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 170.295, z: 0}
 --- !u!114 &772449484183919327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
   MagazineSize: 30
   AutoReload: 1
   NoInputReload: 0
-  ReloadTime: 2
+  ReloadTime: 0
   AmmoConsumedPerShot: 1
   AutoDestroyWhenEmpty: 0
   AutoDestroyWhenEmptyDelay: 1
@@ -187,7 +187,7 @@ MonoBehaviour:
   ObstacleMask:
     serializedVersion: 2
     m_Bits: 256
-  ScanRadius: 15
+  ScanRadius: 5
   LineOfFireBoxcastSize: {x: 0.1, y: 0.1}
   DurationBetweenScans: 0.1
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
@@ -195,8 +195,8 @@ MonoBehaviour:
   ApplyAutoAimAsLastDirection: 1
   MoveCameraTarget: 0
   CameraTargetDistance: 0.5
-  CameraTargetMaxDistance: 10
-  CameraTargetSpeed: 5
+  CameraTargetMaxDistance: 1
+  CameraTargetSpeed: 1
   AimMarkerPrefab: {fileID: 0}
   FirstTargetFoundFeedback: {fileID: 0}
   NewTargetFoundFeedback: {fileID: 0}
@@ -217,3 +217,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DelayBeforeShootAfterAcquiringTarget: 0.1
+  shootProjectileCooldown: 0.25

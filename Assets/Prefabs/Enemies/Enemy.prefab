@@ -277,20 +277,22 @@ MonoBehaviour:
     Actions:
     - {fileID: 663565339}
     Transitions:
-    - Decisions:
+    - TransitionLabel: Transition
+      DecisionsInTransition:
       - decision: {fileID: 1099420173}
-        decisionResult: 0
-      TrueState: RunTowardsPlayer
+        result: 0
+      TrueState: RunTowards
       FalseState: 
-  - StateName: RunTowardsPlayer
+    TransitionsColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+  - StateName: RunTowards
     Actions:
     - {fileID: 1929892062}
     Transitions:
-    - Decisions:
-      - decision: {fileID: 1583484302}
-        decisionResult: 0
+    - TransitionLabel: Transition
+      DecisionsInTransition: []
       TrueState: 
       FalseState: 
+    TransitionsColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}

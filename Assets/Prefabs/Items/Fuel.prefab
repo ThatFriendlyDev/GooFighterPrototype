@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCollected: 0
+  pickUpDuration: 0.5
 --- !u!114 &1494563420
 MonoBehaviour:
   m_ObjectHideFlags: 0
