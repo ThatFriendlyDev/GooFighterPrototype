@@ -9,6 +9,9 @@ namespace MoreMountains.Tools
 {
 	[System.Serializable]
 	public class JoystickEvent : UnityEvent<Vector2> {}
+	[System.Serializable]
+	public class JoystickReleaseEvent : UnityEvent { }
+
 
 	/// <summary>
 	/// Joystick input class.
@@ -42,6 +45,7 @@ namespace MoreMountains.Tools
 		[Header("Binding")]
 		/// The method(s) to call when the button gets pressed down
 		public JoystickEvent JoystickValue;
+		public JoystickReleaseEvent OnJoystickReleaseEvent;
 
 		[Header("Rotating Direction Indicator")] 
 		/// an object you can rotate to show the direction of the joystick. Will only be visible if the movement is above a threshold
@@ -167,7 +171,7 @@ namespace MoreMountains.Tools
 				_newTargetPosition = eventData.position;
 			}
 
-			// We clamp the stick's position to let it move only inside its defined max range
+			// We clamp the stick's position to let it move only inside its defsined max range
 			_newTargetPosition = Vector2.ClampMagnitude(_newTargetPosition - _neutralPosition, MaxRange);
 
 			// If we haven't authorized certain axis, we force them to zero
@@ -204,6 +208,10 @@ namespace MoreMountains.Tools
 
 			// we set its opacity back
 			_canvasGroup.alpha=_initialOpacity;
+			EventManager.TriggerEvent(EventManager.ON_JOYSTICK_RELEASE);
+
+			//To do
+			//EventManager.StartListening(EventManager.ON_JOYSTICK_RELEASE, () => { });
 		}
 
 		/// <summary>

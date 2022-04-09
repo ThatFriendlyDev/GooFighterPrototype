@@ -1,0 +1,270 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/HyperCasual/MagnitBoyRunner
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54538
+Successfully changed project path to: C:/HyperCasual/MagnitBoyRunner
+C:/HyperCasual/MagnitBoyRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 211.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/HyperCasual/MagnitBoyRunner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   27.21.14.6109
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008965 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 164.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.708 seconds
+Domain Reload Profiling:
+	ReloadAssembly (709ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (552ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (164ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022773 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 173.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3527ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (3310ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (2675ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (2117ms)
+				ProcessInitializeOnLoadMethodAttributes (198ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (1.6 MB). Loaded Objects now: 7327.
+Memory consumption went from 366.5 MB to 364.9 MB.
+Total: 31.875200 ms (FindLiveObjects: 0.728900 ms CreateObjectMapping: 0.176800 ms MarkObjects: 30.000700 ms  DeleteObjects: 0.967200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 598201.029909 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientBlueToCyan/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(920c28c38ad168842ac7193add4433e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientBlueToCyan/ButtonCircleSoundOn.prefab using Guid(920c28c38ad168842ac7193add4433e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792743b269b7ffaf4cd5848252551be') in 0.069704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/Feel/NiceVibrations/HapticSamples/Nature/CatPurr1.haptic
+  artifactKey: Guid(f4c5f8f4bfc2443849823656667eeb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/Feel/NiceVibrations/HapticSamples/Nature/CatPurr1.haptic using Guid(f4c5f8f4bfc2443849823656667eeb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968b0d609912d483a53979140e2989f9') in 0.005447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/LightGreen/ButtonCircleDoubleChevron.prefab
+  artifactKey: Guid(4ccd53387d965e04cadfdae9aa2d03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/LightGreen/ButtonCircleDoubleChevron.prefab using Guid(4ccd53387d965e04cadfdae9aa2d03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ed1412b99cc5200a33fc9d98344dd6') in 0.010555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/PostProcessing/FeelBarbariansTopDownPostProcessingProfile.asset
+  artifactKey: Guid(2253fd3a45723c44084c347042f869cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/PostProcessing/FeelBarbariansTopDownPostProcessingProfile.asset using Guid(2253fd3a45723c44084c347042f869cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa7a598bff8727eb17982e63f88ee54') in 0.017680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/Materials/FeelBarbarianTopDownGrass.mat
+  artifactKey: Guid(ae38caa2656ad9b4dbb0c95f4364240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/Materials/FeelBarbarianTopDownGrass.mat using Guid(ae38caa2656ad9b4dbb0c95f4364240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a7fc3b44c324cddcb0c9e36486acba') in 0.086347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientBlueToPurple/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(2af0fadd06b660c4a82fbca47837ed88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientBlueToPurple/ButtonCircleSoundOn.prefab using Guid(2af0fadd06b660c4a82fbca47837ed88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4645ac57cb3924f790631b4983d9c5') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Cyan/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(07024535fd6ae7244909bcaa5baa6cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Cyan/ButtonCircleSoundOn.prefab using Guid(07024535fd6ae7244909bcaa5baa6cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4dbda91cfc60b1eae131550f162cd3') in 0.007956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Orange/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(a54d3e2c3089872468f93ab8f802f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Orange/ButtonCircleSoundOn.prefab using Guid(a54d3e2c3089872468f93ab8f802f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1deb91919a64757c667ab6cd65d6f0') in 0.008278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Models/MMBurger.fbx
+  artifactKey: Guid(10f1060b18f7ba34f92053a256e89d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/Feel/MMFeedbacks/Demos/MMFeedbacksDemo/Models/MMBurger.fbx using Guid(10f1060b18f7ba34f92053a256e89d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cd2fe037ee00061a1375d328ddd88f') in 0.273238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientBlueToCyan/ButtonSquareSoundOn.prefab
+  artifactKey: Guid(fbb9a717ec75a264aab28e598ea3b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/VerticalGradientBlueToCyan/ButtonSquareSoundOn.prefab using Guid(fbb9a717ec75a264aab28e598ea3b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d34c13e3a3f0b52ff0327867480025') in 0.008632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/Materials/FeelBarbarianTopDownGroundRocks.mat
+  artifactKey: Guid(ec25b894bde46e04496a23def0906022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/Materials/FeelBarbarianTopDownGroundRocks.mat using Guid(ec25b894bde46e04496a23def0906022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd371dd6d9f4b42c28c2cb5275022068d') in 0.012557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Pink/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(5f78f4a9ab2238f4897b0037a5b2e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Pink/ButtonCircleSoundOn.prefab using Guid(5f78f4a9ab2238f4897b0037a5b2e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204863b7afd75bcec9421965b944d35d') in 0.009025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Green/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(709319d7150513240a79f866bfe0bb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Green/ButtonCircleSoundOn.prefab using Guid(709319d7150513240a79f866bfe0bb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28ed6e0c974ef8f8f38bc37f0fc8e88') in 0.009352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/Materials/FeelBarbarianTopDownRock.mat
+  artifactKey: Guid(00977836d35ea9c44ba9f73300203ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/Feel/FeelDemos/Barbarians/Materials/FeelBarbarianTopDownRock.mat using Guid(00977836d35ea9c44ba9f73300203ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f10badf0d84cd29495afa5f36072a4f') in 0.013170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Purple/ButtonSquareSoundOn.prefab
+  artifactKey: Guid(f8937f3a0c24bb544a60ec9c0e3ce4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Purple/ButtonSquareSoundOn.prefab using Guid(f8937f3a0c24bb544a60ec9c0e3ce4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d551fd5cf319eaa1ef836afa806fce2') in 0.008124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/DarkerGrey/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(8c1150c24a5faa443939452031eaefdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/DarkerGrey/ButtonCircleSoundOn.prefab using Guid(8c1150c24a5faa443939452031eaefdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32db0dbf981d0b76365c2598969ba6b5') in 0.007795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Yellow/ButtonCircleSoundOn.prefab
+  artifactKey: Guid(85ad8896261db8a4e97083cf8e0fe590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/Prefabs/Buttons/Yellow/ButtonCircleSoundOn.prefab using Guid(85ad8896261db8a4e97083cf8e0fe590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02170c851c40779f2f31ba2c084ab94e') in 0.007738 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
