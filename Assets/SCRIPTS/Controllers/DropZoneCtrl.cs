@@ -31,6 +31,10 @@ public class DropZoneCtrl : MonoBehaviour
 
     private IEnumerator ConsumeFuelItemsCoroutine(List<Transform> fuelItems)
 	{
+        if (fuelItems.Count <= 0)
+		{
+            yield break;
+		}
         
         float startTimestamp = Time.time;  
         float timeSinceStarted = Time.time - startTimestamp;

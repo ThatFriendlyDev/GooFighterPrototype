@@ -211,7 +211,7 @@ namespace MoreMountains.Tools
 			EventManager.TriggerEvent(EventManager.ON_JOYSTICK_RELEASE);
 
 			//To do
-			//EventManager.StartListening(EventManager.ON_JOYSTICK_RELEASE, () => { });
+			EventManager.StartListening(EventManager.ON_JOYSTICK_RELEASE, () => { });
 		}
 
 		/// <summary>

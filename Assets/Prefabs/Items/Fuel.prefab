@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5796734635270587128}
   - component: {fileID: 1578211882919719132}
-  - component: {fileID: 1494563420}
+  - component: {fileID: 6288576224295208784}
   - component: {fileID: 5796734635270587125}
   - component: {fileID: 5796734635270587131}
   - component: {fileID: 5796734635270587130}
+  - component: {fileID: 1584371267873026240}
   m_Layer: 31
   m_Name: Fuel
   m_TagString: Fuel
@@ -48,9 +49,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3817ceceb8307498abb2bd3a9cb4f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCollected: 0
+  PickedMMFeedbacks: {fileID: 0}
+  DisableColliderOnPick: 1
+  DisableObjectOnPick: 0
+  DisableDelay: 0
+  DisableModelOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
+  Model: {fileID: 0}
   pickUpDuration: 0.5
---- !u!114 &1494563420
+--- !u!114 &6288576224295208784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,9 +68,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5796734635270587124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c5d7b90c19788540af4d5e7b7701a42, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d254b6b9eee56540946ce7e8698b7ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuelItem: {fileID: 1578211882919719132}
 --- !u!65 &5796734635270587125
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -125,3 +135,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1584371267873026240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796734635270587124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72de0b0360096ea41a18d17864ecb963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoundsBasedOn: 0
+  LifeTime: 0

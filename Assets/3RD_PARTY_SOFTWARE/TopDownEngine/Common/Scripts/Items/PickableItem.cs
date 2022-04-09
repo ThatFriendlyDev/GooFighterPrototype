@@ -93,6 +93,7 @@ namespace MoreMountains.TopDownEngine
 		/// <param name="collider">Other.</param>
 		public virtual void OnTriggerEnter (Collider collider) 
 		{
+			Debug.Log(collider.name + " picked " + this.transform.name);
 			_collidingObject = collider.gameObject;
 			PickItem (collider.gameObject);
 		}

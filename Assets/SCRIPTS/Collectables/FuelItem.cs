@@ -1,25 +1,26 @@
+using MoreMountains.Tools;
+using MoreMountains.TopDownEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FuelItem : Item
+public class FuelItem : PickableItem
 {
     public float pickUpDuration;
-	// Start is called before the first frame update
-	void Start()
-    {
-        
+ 
+
+	protected override void Pick(GameObject picker)
+	{
+        var playerController = picker.gameObject.MMGetComponentNoAlloc<PlayerController>();
+        if (playerController)
+		{
+            playerController.CollectFuel(this);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+	public void OnCollected(Transform fuelContainer, Vector3 positionToMoveTo)
     {
-        
-    }
-    public override void OnCollected(Transform newParent, Vector3 positionToMoveTo)
-    {
-        base.OnCollected();
-        StartCoroutine(StartMovingToPosition(newParent, positionToMoveTo));
+        StartCoroutine(StartMovingToPosition(fuelContainer, positionToMoveTo));
     }
 
     private IEnumerator StartMovingToPosition(Transform newParent, Vector3 positionToMoveTo)

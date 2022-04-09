@@ -60,14 +60,15 @@ namespace MoreMountains.TopDownEngine
 			DetermineNextFrequency ();
 		}
 
+	
 		/// <summary>
 		/// Every frame we check whether or not we should spawn something
 		/// </summary>
 		protected virtual void Update()
 		{
-			if ((Time.time - _lastSpawnTimestamp > _nextFrequency)  && CanSpawn)
+			if ((Time.time - _lastSpawnTimestamp > _nextFrequency) && CanSpawn)
             {
-				Spawn ();
+				Spawn();
 			}
 		}
 
@@ -75,7 +76,7 @@ namespace MoreMountains.TopDownEngine
 		/// Spawns an object out of the pool if there's one available.
 		/// If it's an object with Health, revives it too.
 		/// </summary>
-		protected virtual void Spawn()
+		protected virtual void Spawn(Vector3 positionToSpawnAt = new Vector3())
 		{
 			GameObject nextGameObject = ObjectPooler.GetPooledGameObject();
 
@@ -98,7 +99,7 @@ namespace MoreMountains.TopDownEngine
             }
 
             // we position the object
-            nextGameObject.transform.position = this.transform.position;
+            nextGameObject.transform.position = positionToSpawnAt;
 
             // we reset our timer and determine the next frequency
             _lastSpawnTimestamp = Time.time;

@@ -86,16 +86,9 @@ public class PlayerController : MonoBehaviour
         bool hasCollidedWithItem = (1 << otherGameObject.transform.gameObject.layer) == this.layerMaskForItems.value;
         if (hasCollidedWithItem)
 		{
-            var item = otherGameObject.GetComponent<Item>();
+            var item = otherGameObject.GetComponent<PickableItem>();
 
-            bool isItemFuel = otherGameObject.gameObject.CompareTag(TAGS.FUEL_TAG);
-            if (isItemFuel)
-			{
-                if (!item.isCollected)
-                {
-                    CollectFuel(otherGameObject.gameObject, item);
-                }
-            }
+            
 
             bool isItemBoost = otherGameObject.gameObject.CompareTag(TAGS.BOOST_TAG);
             if (isItemBoost)
@@ -137,8 +130,15 @@ public class PlayerController : MonoBehaviour
         //otherGameObject.transform.parent = fuelContainer;
         // otherGameObject.transform.localPosition = 0.6f * Vector3.up * collectedFuelItems.Count;
         //otherGameObject.transform.localRotation = Quaternion.Euler(Vector3.zero);
-        fuel.OnCollected(fuelContainer, 0.6f * Vector3.up * collectedFuelItems.Count);
-        collectedFuelItems.Add(otherGameObject.transform);
+        
+        //collectedFuelItems.Add(otherGameObject.transform);
     }
-     
+
+    public void CollectFuel(FuelItem fuel)
+    {
+        fuel.OnCollected(fuelContainer, 0.6f * Vector3.up * collectedFuelItems.Count);
+        collectedFuelItems.Add(fuel.transform);
+    }
+
+ 
 }

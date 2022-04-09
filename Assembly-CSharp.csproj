@@ -72,6 +72,8 @@
     <Compile Include="Assets\SCRIPTS\World\BoostSpawner.cs" />
     <Compile Include="Assets\SCRIPTS\Utility\ResourceManager.cs" />
     <Compile Include="Assets\SCRIPTS\World\EnemySpawner.cs" />
+    <Compile Include="Assets\SCRIPTS\Collectables\FuelItemPoolObject.cs" />
+    <Compile Include="Assets\SCRIPTS\Enemies\EnemyPoolObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3RD_PARTY_SOFTWARE\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
