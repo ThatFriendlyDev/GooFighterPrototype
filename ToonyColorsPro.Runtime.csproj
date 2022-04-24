@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5BD0B26F-FC42-8D4A-D845-192A2C9F604A}</ProjectGuid>
+    <ProjectGuid>{BB5AE1FC-7D91-ED9B-95F2-8F7D6E2D27A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ToonyColorsPro.Runtime</AssemblyName>

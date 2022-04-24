@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9B33BFD7-5AFB-56F8-12A0-984F5BE37255}</ProjectGuid>
+    <ProjectGuid>{8C8202DE-94FE-A1E1-3897-D8522415E223}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Dreamteck.Utilities</AssemblyName>

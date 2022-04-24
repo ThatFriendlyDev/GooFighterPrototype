@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{40BEB249-194B-D117-E880-9A7580C0182A}</ProjectGuid>
+    <ProjectGuid>{22D036C9-C7A5-B85A-C1F0-6967854D5C67}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Feedbacks.MMTools</AssemblyName>
@@ -778,11 +778,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Feedbacks.csproj">
-      <Project>{4924E13E-BAE3-F283-2B7A-395B0708C8C5}</Project>
+      <Project>{559DE9C4-AA9B-97A6-DDA5-4EF362FADE23}</Project>
       <Name>MoreMountains.Feedbacks</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{110D6C21-CB42-FCB6-A9D3-ACFF00D8A756}</Project>
+      <Project>{4556F1A8-753E-A0D6-81A5-9BE9900D0C9C}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>

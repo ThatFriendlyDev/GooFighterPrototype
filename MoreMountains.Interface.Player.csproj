@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{23E537F2-A80F-4784-C0B9-E93D39871B97}</ProjectGuid>
+    <ProjectGuid>{48A204A0-242F-69E5-0DE2-C7A11AC6138B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Interface</AssemblyName>
@@ -661,7 +661,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{110D6C21-CB42-FCB6-A9D3-ACFF00D8A756}</Project>
+      <Project>{4556F1A8-753E-A0D6-81A5-9BE9900D0C9C}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>

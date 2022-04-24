@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{08A15F14-FA62-FEBC-EB63-B2F2DA647C0D}</ProjectGuid>
+    <ProjectGuid>{6F8502B6-515B-807D-49B5-52B01408554A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\GUIColorExamplesComponent.cs" />
+    <Compile Include="Assets\SCRIPTS\Collectables\FuelItemPoolObject.cs" />
     <Compile Include="Assets\SCRIPTS\Utility\PoolObject.cs" />
     <Compile Include="Assets\SCRIPTS\Collectables\BoostItem.cs" />
     <Compile Include="Assets\SCRIPTS\Controllers\DropZoneCtrl.cs" />
@@ -71,9 +72,8 @@
     <Compile Include="Assets\SCRIPTS\Controllers\EnemyController.cs" />
     <Compile Include="Assets\SCRIPTS\World\BoostSpawner.cs" />
     <Compile Include="Assets\SCRIPTS\Utility\ResourceManager.cs" />
-    <Compile Include="Assets\SCRIPTS\World\EnemySpawner.cs" />
-    <Compile Include="Assets\SCRIPTS\Collectables\FuelItemPoolObject.cs" />
     <Compile Include="Assets\SCRIPTS\Enemies\EnemyPoolObject.cs" />
+    <Compile Include="Assets\SCRIPTS\World\EnemySpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3RD_PARTY_SOFTWARE\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -466,6 +466,15 @@
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -974,195 +983,195 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{879E1A27-F9B3-7922-7E10-82BB9CD78B4F}</Project>
+      <Project>{098EB714-2018-0AA6-F595-2B952F3260A6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.Cinemachine.csproj">
-      <Project>{C30583C5-1DBB-538B-3632-BB6853160E01}</Project>
+      <Project>{D640F961-5D94-BACD-3E77-79172E5357CC}</Project>
       <Name>MoreMountains.TopDownEngine.Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Lofelt.NiceVibrations.Editor.csproj">
-      <Project>{4E938DEA-2D62-A892-1BFA-109B1DF5D9AA}</Project>
+      <Project>{58C02363-B88F-C76D-DA25-99479FFBF291}</Project>
       <Name>Lofelt.NiceVibrations.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Editor.csproj">
-      <Project>{DB5272C1-D8AB-6673-B2A8-B68BFF58B045}</Project>
+      <Project>{53FCBC57-DDF9-3476-8BC3-9B3ABA5B8269}</Project>
       <Name>MoreMountains.Tools.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.InventoryEngine.Demos.csproj">
-      <Project>{BFBAF797-9811-EBB0-BF3F-0C99371D8420}</Project>
+      <Project>{4824F7DA-9A1F-3838-3D20-8275212CC1E0}</Project>
       <Name>MoreMountains.InventoryEngine.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{DC9EC5C4-EE2E-2028-3C30-7CEA3B5F0273}</Project>
+      <Project>{0DB67A85-1DF5-83AF-8F18-11540131335E}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.csproj">
-      <Project>{4924E13E-BAE3-F283-2B7A-395B0708C8C5}</Project>
+      <Project>{559DE9C4-AA9B-97A6-DDA5-4EF362FADE23}</Project>
       <Name>MoreMountains.Feedbacks</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.PostProcessing.csproj">
-      <Project>{9554141A-04E4-16A9-C89D-6E9974EC005B}</Project>
+      <Project>{FC16482E-6892-F3D7-F039-C7D82D2DB841}</Project>
       <Name>MoreMountains.TopDownEngine.PostProcessing</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
-      <Project>{74E72812-DD25-7DBC-75E7-FE36D4DDA4F1}</Project>
+      <Project>{C44C0BF1-D8C1-4913-951A-661982233477}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.PostProcessing.csproj">
-      <Project>{DE84BFDB-8B8C-DB6F-48E2-DCA7863F5BF7}</Project>
+      <Project>{1E5BC525-F3BA-98CD-FD89-3F92783DBFE6}</Project>
       <Name>MoreMountains.Feedbacks.PostProcessing</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
-      <Project>{69A59F45-9B15-EAD7-6901-1160B0432266}</Project>
+      <Project>{98D56E86-B487-33A8-02AD-5E15FDDD7494}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.TextMeshPro.csproj">
-      <Project>{35170F85-8ED6-AEC9-8B67-CCC6DF07990F}</Project>
+      <Project>{061F2B4F-26E8-DC94-9862-2AB7129CDC30}</Project>
       <Name>MoreMountains.Tools.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feel.Demos.HDRP.csproj">
-      <Project>{5A3A3D99-949C-295F-9942-0E274EAED745}</Project>
+      <Project>{E5A922B1-D6FC-8BD1-B3DF-B0386EE1BB3B}</Project>
       <Name>MoreMountains.Feel.Demos.HDRP</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{5BD0B26F-FC42-8D4A-D845-192A2C9F604A}</Project>
+      <Project>{BB5AE1FC-7D91-ED9B-95F2-8F7D6E2D27A3}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{58132448-9806-7F19-593A-C94BB43E68F9}</Project>
+      <Project>{E81F8B0F-E413-C7C3-4812-38E355B56B64}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{A4A6679E-D8E6-181F-3C19-13E5B9254CF7}</Project>
+      <Project>{A78986EA-2D0C-7002-883A-EA724F090F48}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.InventoryEngine.csproj">
-      <Project>{6B8FF6ED-6AF0-BDE0-DBBA-4ED5AE245E98}</Project>
+      <Project>{CF1B1BFF-E5CB-281E-C833-D8732C3B451E}</Project>
       <Name>MoreMountains.InventoryEngine</Name>
     </ProjectReference>
     <ProjectReference Include="Dreamteck.Splines.csproj">
-      <Project>{71814E8E-697D-E073-28A5-BC87A939236D}</Project>
+      <Project>{798DB27D-BEE9-1C5D-56C5-16EB80FB8CE6}</Project>
       <Name>Dreamteck.Splines</Name>
     </ProjectReference>
     <ProjectReference Include="Lofelt.NiceVibrations.Demo.csproj">
-      <Project>{F7D26D20-8D88-DEC8-6406-186111845F31}</Project>
+      <Project>{B7073C07-C933-5E2B-3283-F50B9DFC9AF4}</Project>
       <Name>Lofelt.NiceVibrations.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.MMTools.csproj">
-      <Project>{40BEB249-194B-D117-E880-9A7580C0182A}</Project>
+      <Project>{22D036C9-C7A5-B85A-C1F0-6967854D5C67}</Project>
       <Name>MoreMountains.Feedbacks.MMTools</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.csproj">
-      <Project>{2B16520D-B813-85CE-E6AB-B243A06798A9}</Project>
+      <Project>{A9AF5C6F-E4C3-5BA2-0470-5A0500B53988}</Project>
       <Name>MoreMountains.TopDownEngine</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Editor.csproj">
-      <Project>{EAB8A923-8480-6A70-5FB7-166A8E338899}</Project>
+      <Project>{674C980D-85BB-ED49-571A-DCD181722E7D}</Project>
       <Name>ToonyColorsPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.NiceVibrations.csproj">
-      <Project>{4210E195-2C1C-4A55-E4F4-AC75087AE3B2}</Project>
+      <Project>{EDFA585C-9A83-B520-32FC-0A6483F64E9F}</Project>
       <Name>MoreMountains.Feedbacks.NiceVibrations</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
-      <Project>{1A37A0B5-1C0B-0F32-ED4E-95ED2D438ABD}</Project>
+      <Project>{8E246128-C532-4A60-6335-769E39AB51AD}</Project>
       <Name>ToonyColorsPro2.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{93F49D02-ADE0-9309-AE1E-1ED435838CC7}</Project>
+      <Project>{E8B842F7-9BC9-89A7-EC25-443B177704D0}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.InventoryEngine.Editor.csproj">
-      <Project>{C261B2B0-E060-82FC-A857-69962EADE9BF}</Project>
+      <Project>{50F8445F-D09E-B682-B44B-DFBD8503E731}</Project>
       <Name>MoreMountains.InventoryEngine.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.TextMeshPro.csproj">
-      <Project>{E336D622-6AB5-7F32-7FD2-5551383BDB98}</Project>
+      <Project>{EE8FF5E1-872E-6412-417C-AA468FFF93C9}</Project>
       <Name>MoreMountains.Feedbacks.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
-      <Project>{95157B17-D0BE-37DB-AFEF-78BC3711459F}</Project>
+      <Project>{4B18AD5E-9864-EE3C-6DD8-CA0726C1E1F0}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Interface.Editor.csproj">
-      <Project>{E9FD9453-F6E7-B722-EE0E-8604041887A4}</Project>
+      <Project>{1E9F5F65-CB2F-DA74-CBAC-BA9738731167}</Project>
       <Name>MoreMountains.Interface.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{897B5876-E1A1-1B51-D884-50E28BC15597}</Project>
+      <Project>{95C52E31-C621-8F66-56FC-10D49A42ED46}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.URP.csproj">
-      <Project>{6B38A952-F87D-7132-7D1D-97C9EFE0D024}</Project>
+      <Project>{2BF1CCBC-AA27-AFE3-130A-412FF5F3D509}</Project>
       <Name>MoreMountains.Feedbacks.URP</Name>
     </ProjectReference>
     <ProjectReference Include="Dreamteck.Utilities.csproj">
-      <Project>{6721D064-28DA-BF89-5E41-ACCCABE45590}</Project>
+      <Project>{08D77616-29E6-8ED2-DC48-6E3BF15322E8}</Project>
       <Name>Dreamteck.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.Editor.csproj">
-      <Project>{37076892-5EC5-2664-092D-8E4960DDF27B}</Project>
+      <Project>{0F343163-706F-61A8-D76F-F035519C9954}</Project>
       <Name>MoreMountains.Feedbacks.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{2CCCB5C4-B657-D68F-10BC-074BE44091EB}</Project>
+      <Project>{34602B63-ED8C-2A0C-037D-A4F944084E5C}</Project>
       <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feel.Demos.csproj">
-      <Project>{101D0E20-AB86-A402-1B4D-7DFCB2C24523}</Project>
+      <Project>{09AE97B4-D29D-65FD-B9C0-B822D79240E1}</Project>
       <Name>MoreMountains.Feel.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="Dreamteck.Splines.Editor.csproj">
-      <Project>{AC652F93-6E63-CA2D-CEDB-D12313DF9C47}</Project>
+      <Project>{007785B6-877C-B9D2-39DC-FE6942530136}</Project>
       <Name>Dreamteck.Splines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Interface.csproj">
-      <Project>{53A62103-8BB9-9150-4F4E-8FE5AF50B7AF}</Project>
+      <Project>{A5692DAF-52B5-71D8-AAC6-993F3C2CDF3C}</Project>
       <Name>MoreMountains.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Feedbacks.csproj">
-      <Project>{517AA95A-E790-7463-60D7-1BE13E60D2F6}</Project>
+      <Project>{CAFDA84B-3E1C-9E34-3E9C-0D3C95CE1564}</Project>
       <Name>MoreMountains.Tools.Feedbacks</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Feedbacks.Editor.csproj">
-      <Project>{EE1B11C3-6663-76ED-6D91-775C7A340A4E}</Project>
+      <Project>{E6FFDC52-DE1D-F06E-371D-370E096A1751}</Project>
       <Name>MoreMountains.Tools.Feedbacks.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Dreamteck.Utilities.Editor.csproj">
-      <Project>{FFB4D82A-3593-0536-1DA2-E75C0E0FD6E2}</Project>
+      <Project>{97CFD9D3-C891-E975-0B11-A67A826F3A01}</Project>
       <Name>Dreamteck.Utilities.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Lofelt.NiceVibrations.csproj">
-      <Project>{DE882709-DF91-E0E6-4D4D-4025E718B65F}</Project>
+      <Project>{8674BE5B-944A-35B2-71E6-89614C7AAE4A}</Project>
       <Name>Lofelt.NiceVibrations</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feel.Demos.URP.csproj">
-      <Project>{7F4CB1C3-F3FF-3464-D72E-DBBF75F399F1}</Project>
+      <Project>{1AFCA88C-C08C-9536-6575-61DF1A46688C}</Project>
       <Name>MoreMountains.Feel.Demos.URP</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Cinemachine.csproj">
-      <Project>{6959C2A1-3F36-3DE9-D891-A8C94A93060D}</Project>
+      <Project>{2FE3D846-C852-2EE0-2A76-6D75AC67A94E}</Project>
       <Name>MoreMountains.Tools.Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.Editor.csproj">
-      <Project>{5AA1306C-EE7B-3CBE-2580-E6E16107998B}</Project>
+      <Project>{82EA598D-AE4B-6CB5-D3C7-BC2AF5E8A07C}</Project>
       <Name>MoreMountains.TopDownEngine.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.Demos.csproj">
-      <Project>{751CBC67-A96F-2686-02EE-AF72954B9DCD}</Project>
+      <Project>{8D331D8C-CE02-4901-265C-815EE9DC86C9}</Project>
       <Name>MoreMountains.TopDownEngine.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.TopDownEngine.Cinemachine.Editor.csproj">
-      <Project>{318595CB-6698-8CB6-5D21-ED524451094C}</Project>
+      <Project>{7471211E-3A78-9F34-8791-9A9F4F6B5163}</Project>
       <Name>MoreMountains.TopDownEngine.Cinemachine.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.Cinemachine.csproj">
-      <Project>{F4E61FEC-2DB4-E440-5B16-0EF7540BB61A}</Project>
+      <Project>{9FC0C06E-DD76-DE00-010F-DD5F29DD893C}</Project>
       <Name>MoreMountains.Feedbacks.Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{110D6C21-CB42-FCB6-A9D3-ACFF00D8A756}</Project>
+      <Project>{4556F1A8-753E-A0D6-81A5-9BE9900D0C9C}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{71E7C4E6-3C5B-B47B-0F8A-DF9BEC676625}</ProjectGuid>
+    <ProjectGuid>{F96B2F84-526D-47D5-5764-98C26E9E4335}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Dreamteck.Splines</AssemblyName>
@@ -706,7 +706,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Dreamteck.Utilities.csproj">
-      <Project>{6721D064-28DA-BF89-5E41-ACCCABE45590}</Project>
+      <Project>{08D77616-29E6-8ED2-DC48-6E3BF15322E8}</Project>
       <Name>Dreamteck.Utilities</Name>
     </ProjectReference>
   </ItemGroup>

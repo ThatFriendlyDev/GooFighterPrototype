@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D5B41C2D-29D0-82E4-0EAE-DB21C7B896F4}</ProjectGuid>
+    <ProjectGuid>{42E3996A-4439-CEDF-E6DE-DD94628A9993}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Feedbacks</AssemblyName>

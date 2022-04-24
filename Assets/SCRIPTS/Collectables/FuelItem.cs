@@ -46,7 +46,7 @@ public class FuelItem : PickableItem
             transform.localPosition = Vector3.Slerp(startPosition, targetPosition, percentageComplete);
             transform.localRotation = Quaternion.Slerp(startRotation, targetRotation, percentageComplete);
             yield return null;
-        }
+        } 
         
     }
 }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E9FD9453-F6E7-B722-EE0E-8604041887A4}</ProjectGuid>
+    <ProjectGuid>{1E9F5F65-CB2F-DA74-CBAC-BA9738731167}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Interface.Editor</AssemblyName>
@@ -773,7 +773,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Interface.csproj">
-      <Project>{53A62103-8BB9-9150-4F4E-8FE5AF50B7AF}</Project>
+      <Project>{A5692DAF-52B5-71D8-AAC6-993F3C2CDF3C}</Project>
       <Name>MoreMountains.Interface</Name>
     </ProjectReference>
   </ItemGroup>

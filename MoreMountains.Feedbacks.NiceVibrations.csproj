@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4210E195-2C1C-4A55-E4F4-AC75087AE3B2}</ProjectGuid>
+    <ProjectGuid>{EDFA585C-9A83-B520-32FC-0A6483F64E9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Feedbacks.NiceVibrations</AssemblyName>
@@ -761,11 +761,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Feedbacks.csproj">
-      <Project>{4924E13E-BAE3-F283-2B7A-395B0708C8C5}</Project>
+      <Project>{559DE9C4-AA9B-97A6-DDA5-4EF362FADE23}</Project>
       <Name>MoreMountains.Feedbacks</Name>
     </ProjectReference>
     <ProjectReference Include="Lofelt.NiceVibrations.csproj">
-      <Project>{DE882709-DF91-E0E6-4D4D-4025E718B65F}</Project>
+      <Project>{8674BE5B-944A-35B2-71E6-89614C7AAE4A}</Project>
       <Name>Lofelt.NiceVibrations</Name>
     </ProjectReference>
   </ItemGroup>

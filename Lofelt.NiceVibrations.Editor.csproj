@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E938DEA-2D62-A892-1BFA-109B1DF5D9AA}</ProjectGuid>
+    <ProjectGuid>{58C02363-B88F-C76D-DA25-99479FFBF291}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Lofelt.NiceVibrations.Editor</AssemblyName>
@@ -774,7 +774,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Lofelt.NiceVibrations.csproj">
-      <Project>{DE882709-DF91-E0E6-4D4D-4025E718B65F}</Project>
+      <Project>{8674BE5B-944A-35B2-71E6-89614C7AAE4A}</Project>
       <Name>Lofelt.NiceVibrations</Name>
     </ProjectReference>
   </ItemGroup>

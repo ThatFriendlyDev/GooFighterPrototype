@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AF4714AF-6DEB-0BD4-0E3A-A9F25DC0E2B7}</ProjectGuid>
+    <ProjectGuid>{55C296A5-D598-65CC-FE6E-177892ED1918}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NavMeshComponents</AssemblyName>

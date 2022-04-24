@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
+        
     }
 
 	private void Update()
@@ -83,6 +84,7 @@ public class PlayerController : MonoBehaviour
 
 	private void OnTriggerEnter(Collider otherGameObject)
 	{
+        Debug.Log(otherGameObject.gameObject.name);
         bool hasCollidedWithItem = (1 << otherGameObject.transform.gameObject.layer) == this.layerMaskForItems.value;
         if (hasCollidedWithItem)
 		{
@@ -108,6 +110,7 @@ public class PlayerController : MonoBehaviour
                 otherGameObject.GetComponent<DropZoneCtrl>().AddFuelItems(collectedFuelItems);
                 collectedFuelItems.Clear();
             }
+ 
         }
 
     }

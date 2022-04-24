@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DE882709-DF91-E0E6-4D4D-4025E718B65F}</ProjectGuid>
+    <ProjectGuid>{8674BE5B-944A-35B2-71E6-89614C7AAE4A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Lofelt.NiceVibrations</AssemblyName>

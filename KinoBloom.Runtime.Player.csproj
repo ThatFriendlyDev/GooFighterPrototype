@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C85BAB03-F8FA-C263-3C73-1A82C4499803}</ProjectGuid>
+    <ProjectGuid>{1355CA63-A0E4-63CA-EDC3-9B799922BE1C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>KinoBloom.Runtime</AssemblyName>

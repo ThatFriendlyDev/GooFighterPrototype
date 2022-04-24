@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{95157B17-D0BE-37DB-AFEF-78BC3711459F}</ProjectGuid>
+    <ProjectGuid>{4B18AD5E-9864-EE3C-6DD8-CA0726C1E1F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Sirenix.OdinInspector.CompatibilityLayer</AssemblyName>

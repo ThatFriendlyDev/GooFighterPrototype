@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{062A7DE5-12D6-EC99-9DD1-05D058FEFEC8}</ProjectGuid>
+    <ProjectGuid>{FB2F371F-ECC8-CFBB-8266-1C60F5F8E63E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Feedbacks.Cinemachine</AssemblyName>
@@ -671,7 +671,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Feedbacks.csproj">
-      <Project>{4924E13E-BAE3-F283-2B7A-395B0708C8C5}</Project>
+      <Project>{559DE9C4-AA9B-97A6-DDA5-4EF362FADE23}</Project>
       <Name>MoreMountains.Feedbacks</Name>
     </ProjectReference>
   </ItemGroup>

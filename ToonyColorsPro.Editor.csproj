@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EAB8A923-8480-6A70-5FB7-166A8E338899}</ProjectGuid>
+    <ProjectGuid>{674C980D-85BB-ED49-571A-DCD181722E7D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ToonyColorsPro.Editor</AssemblyName>
@@ -813,7 +813,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{5BD0B26F-FC42-8D4A-D845-192A2C9F604A}</Project>
+      <Project>{BB5AE1FC-7D91-ED9B-95F2-8F7D6E2D27A3}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
