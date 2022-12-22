@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/HyperCasual/MagnitBoyRunner
+C:/HyperCasual/HyperCasualTemplate
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58384
-Successfully changed project path to: C:/HyperCasual/MagnitBoyRunner
-C:/HyperCasual/MagnitBoyRunner
+62930
+Successfully changed project path to: C:/HyperCasual/HyperCasualTemplate
+C:/HyperCasual/HyperCasualTemplate
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/HyperCasual/MagnitBoyRunner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 241.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 173.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/HyperCasual/MagnitBoyRunner/Assets
+[Subsystems] Discovering subsystems at path C:/HyperCasual/HyperCasualTemplate/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -64,78 +64,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009117 seconds.
+Registered in 0.009288 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 172.28 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 165.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
+- Completed reload, in  0.685 seconds
 Domain Reload Profiling:
-	ReloadAssembly (803ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (368ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (172ms)
+				RefreshPlugins (166ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027550 seconds.
+Registered in 0.023652 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\MagnitBoyRunner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 163.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 165.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.085 seconds
+- Completed reload, in  3.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4086ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (3531ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (3872ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (3308ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (3194ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (2688ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (164ms)
-				BeforeProcessingInitializeOnLoad (191ms)
-				ProcessInitializeOnLoadAttributes (2632ms)
-				ProcessInitializeOnLoadMethodAttributes (186ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (2137ms)
+				ProcessInitializeOnLoadMethodAttributes (208ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,13 +144,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6849 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 84 unused Assets / (1.6 MB). Loaded Objects now: 7330.
-Memory consumption went from 366.7 MB to 365.1 MB.
-Total: 37.879500 ms (FindLiveObjects: 0.770200 ms CreateObjectMapping: 1.894400 ms MarkObjects: 32.124700 ms  DeleteObjects: 3.079700 ms)
+Unloading 6835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (1.6 MB). Loaded Objects now: 7324.
+Memory consumption went from 365.9 MB to 364.3 MB.
+Total: 43.952000 ms (FindLiveObjects: 1.362600 ms CreateObjectMapping: 0.317300 ms MarkObjects: 40.925900 ms  DeleteObjects: 1.343800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,7 +164,905 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14129.375058 seconds.
-  path: Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/Tools/MMAI/AITransition.cs
-  artifactKey: Guid(36bf680dabd04c14288ec99ad204ee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3RD_PARTY_SOFTWARE/Feel/MMTools/Tools/MMAI/AITransition.cs using Guid(36bf680dabd04c14288ec99ad204ee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9220c915d4e7d8eaf05ead0c953f78') in 0.076023 seconds 
+  Time since last request: 599308.027845 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bf5358a962d8fd8693491eb1210cec') in 0.162613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcdf3dc8d381cd0012bb8785570f91a') in 0.048215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20964507219e4bbf000b3f8d7364e3e') in 0.048697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028844 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/Material Layers Demo Assets/TCP2_Demo Material Layer Snow + Sand Advanced.mat
+  artifactKey: Guid(c9a8232dc73e2bd49a1cf7b08f9bfced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/JMO Assets/Toony Colors Pro/Demo TCP2/Material Layers Demo Assets/TCP2_Demo Material Layer Snow + Sand Advanced.mat using Guid(c9a8232dc73e2bd49a1cf7b08f9bfced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918cb35d2fd3774ae430f070c71d53f6') in 0.191496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.993711 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-sword.png
+  artifactKey: Guid(236d39d3ce1743d4da1a47bd304522aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/LevelSelection/Sprites/level-map-minimal3D-sword.png using Guid(236d39d3ce1743d4da1a47bd304522aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb48e76af35f19eaaf0e4a02720b16ec') in 0.063640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169390 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DBluePortal.prefab
+  artifactKey: Guid(bb34db1e3bd6dd642939219cceb096e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DBluePortal.prefab using Guid(bb34db1e3bd6dd642939219cceb096e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f5bf82fcbab4589219c04093d3e62d') in 0.110051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGreenDoor.prefab
+  artifactKey: Guid(22043dc0abe19ca4ba0fca4e333ea42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGreenDoor.prefab using Guid(22043dc0abe19ca4ba0fca4e333ea42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c66d016820be36fed23b2a2298a89f') in 0.074144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DKillZone.prefab
+  artifactKey: Guid(bd4827cfe8738db4eb6ca4315945e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DKillZone.prefab using Guid(bd4827cfe8738db4eb6ca4315945e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f122cb4b6670efb053aeaed89567423a') in 0.071134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_1x1 Green.prefab
+  artifactKey: Guid(e8ae14751350e9441a0d7901c0f1d20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_1x1 Green.prefab using Guid(e8ae14751350e9441a0d7901c0f1d20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce73f877141ab707a2e79816d2c2ac0d') in 0.088358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_1x1 Orange.prefab
+  artifactKey: Guid(54741be6e89f1bb43a128e5ba719590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_1x1 Orange.prefab using Guid(54741be6e89f1bb43a128e5ba719590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5705b65baabd37b75109a3ee03a3fcf9') in 0.024135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-blue.png
+  artifactKey: Guid(470e18cc432c68249945840f82dc9f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-blue.png using Guid(470e18cc432c68249945840f82dc9f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b98a6e4da6a67caa2850290a2d43a8') in 0.019269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_1x1 Grey.prefab
+  artifactKey: Guid(1eda0ae253d780d4db754b06d7833a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_1x1 Grey.prefab using Guid(1eda0ae253d780d4db754b06d7833a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32c3b6ed0bb87061a84c23754afab0d') in 0.030621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_1x1 Blue.prefab
+  artifactKey: Guid(fada082eba94c4a43b6723e828602a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_1x1 Blue.prefab using Guid(fada082eba94c4a43b6723e828602a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b014bead340bc12cf9442c4ad1c0b4d') in 0.023247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-green.png
+  artifactKey: Guid(c2311aeae0b9bc148afc1cb2b4e60383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_1x1-green.png using Guid(c2311aeae0b9bc148afc1cb2b4e60383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2f40b1edc4f2f727f0034ea826fad0') in 0.021629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_1x1 Yellow.prefab
+  artifactKey: Guid(77bdd466f87c67f4cb0c41f792e4521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_1x1 Yellow.prefab using Guid(77bdd466f87c67f4cb0c41f792e4521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8804c3e3fb9c5d9f7d23820292675d') in 0.022272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGateToNextLevel.prefab
+  artifactKey: Guid(6cda1f2293e46bb48b49c3ba121388fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/Minimal2DGateToNextLevel.prefab using Guid(6cda1f2293e46bb48b49c3ba121388fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedcb248b0807a6ad415e80da57263de') in 0.069317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.716402 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Grey.mat
+  artifactKey: Guid(3358a36a5e4c16849b2ffe25969b7a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1Grey.mat using Guid(3358a36a5e4c16849b2ffe25969b7a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31df4881313708a512755dc65359c2d') in 0.022808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1LightGrey.mat
+  artifactKey: Guid(c4c5e24cb2c884f918709a952e980e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_1x1LightGrey.mat using Guid(c4c5e24cb2c884f918709a952e980e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d0f4f6fe1d13344fe7b7e3aaf34035') in 0.025019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_2x1 Blue.prefab
+  artifactKey: Guid(6dba5d39edbecd84e8d20900a9a74155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsBlue/Minimal3D_2x1 Blue.prefab using Guid(6dba5d39edbecd84e8d20900a9a74155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e782a03b72aa83d9f576b8e954683d') in 0.053901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-dark-grey.png
+  artifactKey: Guid(2de4c81f824e2414b84c1ba995b18f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_2x1-dark-grey.png using Guid(2de4c81f824e2414b84c1ba995b18f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0df98b8e3051d5a27646c33c1b45fd2') in 0.032918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-dark-grey.mat
+  artifactKey: Guid(931f595ce4ebb154ebc6923cf1a21e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-dark-grey.mat using Guid(931f595ce4ebb154ebc6923cf1a21e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6908b63c670102c9cccddae955a697fd') in 0.043677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.247773 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-orange.mat
+  artifactKey: Guid(74997819f55d411459b8e959e11c9581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1-orange.mat using Guid(74997819f55d411459b8e959e11c9581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d953094819a1cc3b5fbbc2ed9d564e') in 0.038676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Orange.mat
+  artifactKey: Guid(b0a3ae0f8b8395b4fa158984c3ad916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Orange.mat using Guid(b0a3ae0f8b8395b4fa158984c3ad916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863ab1d7e89ac49bbf8bdd8301f7a833') in 0.033099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Yellow.mat
+  artifactKey: Guid(dd188e51a0f3e904d99787304d83bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Yellow.mat using Guid(dd188e51a0f3e904d99787304d83bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6911c7ff32699fb7621fb17ddb56766') in 0.023655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_4x1 Green.prefab
+  artifactKey: Guid(cd20e90ad736f4e41900cb110bbc7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_4x1 Green.prefab using Guid(cd20e90ad736f4e41900cb110bbc7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57660f61325ea68b8b031f9c183469b8') in 0.068821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Grey 1.mat
+  artifactKey: Guid(34bf81462dad67b418a22a93dd740d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_2x1Grey 1.mat using Guid(34bf81462dad67b418a22a93dd740d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1236291929de2c02adede531008ed23e') in 0.036110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174157 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_4x1 Grey Thin.prefab
+  artifactKey: Guid(8f20c5820271d2e4ba575aa937f22853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGrey/Minimal3D_4x1 Grey Thin.prefab using Guid(8f20c5820271d2e4ba575aa937f22853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d21f42ef3ebd5259edb8563e607408') in 0.078590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-yellow.png
+  artifactKey: Guid(89ddece3d9b66354bbf986058c4d8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-yellow.png using Guid(89ddece3d9b66354bbf986058c4d8759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd544f57807d21e3f8dddd4913ca8e95') in 0.055722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_4x1 Yellow Thin.prefab
+  artifactKey: Guid(7b0b124d00c122944a64fb68417efc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsYellow/Minimal3D_4x1 Yellow Thin.prefab using Guid(7b0b124d00c122944a64fb68417efc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2fc1312259ad88e5e01366d833cf83') in 0.059965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_BlockBackground.prefab
+  artifactKey: Guid(d45f92dd68bcab94a83f2c8e188396ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_BlockBackground.prefab using Guid(d45f92dd68bcab94a83f2c8e188396ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215e5bfbada6700e3e5426b7a9175aaa') in 0.099970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-blue.png
+  artifactKey: Guid(18b49463ceac42b47b1dea06858effaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_4x1-blue.png using Guid(18b49463ceac42b47b1dea06858effaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91623173482aa49b47f83ebc190bd3e0') in 0.052499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Green.mat
+  artifactKey: Guid(c871b899fe48fd54d92d67b3415ad2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_4x1Green.mat using Guid(c871b899fe48fd54d92d67b3415ad2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91f6bcc958831181a3dbc8507b79d80') in 0.048702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089245 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_fallingYellow.mat
+  artifactKey: Guid(d42efd1925b4b3c41b2e46b46116d174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_fallingYellow.mat using Guid(d42efd1925b4b3c41b2e46b46116d174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44956cace304fc15b85afb845ff9897') in 0.025091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_movingYellow.mat
+  artifactKey: Guid(4a23b8a2ecc9407428759fab1bd77bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_movingYellow.mat using Guid(4a23b8a2ecc9407428759fab1bd77bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14bff106fd4461d00a2f544f5e96c95') in 0.023218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_point5xpoint5 Green.prefab
+  artifactKey: Guid(eb3340ac9e658044cae71be2ce922313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsGreen/Minimal3D_point5xpoint5 Green.prefab using Guid(eb3340ac9e658044cae71be2ce922313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97893ae0b73c1e55dfb7bc46599ec981') in 0.016620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_point5xpoint5 Orange.prefab
+  artifactKey: Guid(6e1a61d6961f1ec4785a335920d78bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/PlatformsOrange/Minimal3D_point5xpoint5 Orange.prefab using Guid(6e1a61d6961f1ec4785a335920d78bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057ddf9833bd92a366c1f3631df0ecee') in 0.017755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_moving-yellow.png
+  artifactKey: Guid(ae0e6b0d525f0fe44bb0ec406fe3269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Textures/Minimal3D_moving-yellow.png using Guid(ae0e6b0d525f0fe44bb0ec406fe3269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55251e9e00d955be6c03410cfc39a79') in 0.068105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.465250 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Green.mat
+  artifactKey: Guid(5caa62a4de87368498fcfd811bc58cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Green.mat using Guid(5caa62a4de87368498fcfd811bc58cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa0459da4b216b45fef3feaafd0f37e') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_PushablePlatform.prefab
+  artifactKey: Guid(aceb9b44874201243a9e1607d29fc175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Prefabs/Props/Minimal3D_PushablePlatform.prefab using Guid(aceb9b44874201243a9e1607d29fc175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cd0a958ace8f7b622675c723daa082') in 0.024451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Orange.mat
+  artifactKey: Guid(dd4e14dc99bb4e84db1d5989d1f6e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Orange.mat using Guid(dd4e14dc99bb4e84db1d5989d1f6e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873ea399ba2732d3e203f67348798fb4') in 0.015137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DCoin.prefab
+  artifactKey: Guid(dd735c9a220c5e94195000fa0c1a1719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DCoin.prefab using Guid(dd735c9a220c5e94195000fa0c1a1719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56ff024efb59bdc23d184e80a3b1c29') in 0.021234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Yellow.mat
+  artifactKey: Guid(20f5e324363bfb54ab2de1e537774d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PrototypeProps/Materials/Minimal3D_point5xpoint5Yellow.mat using Guid(20f5e324363bfb54ab2de1e537774d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c732e75cd850cf909c995a65567d9f2') in 0.014818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379474 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DPushableBlock.prefab
+  artifactKey: Guid(9091979688a81654bb7cdb6816ee245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/Props/Minimal3DPushableBlock.prefab using Guid(9091979688a81654bb7cdb6816ee245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e9298bf481af598e65246794d5afcd') in 0.023579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/PlayableCharacters/MinimalCharacter2D.prefab
+  artifactKey: Guid(1ad7bd0ba7df62842842d1a8d738ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/PlayableCharacters/MinimalCharacter2D.prefab using Guid(1ad7bd0ba7df62842842d1a8d738ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a91f2c1ed28be72e051806a00d049a') in 0.019714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalCharacterInfiniteHealth.prefab
+  artifactKey: Guid(bfbd3fb63c624fb4884bf770fcc77ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Prefabs/PlayableCharacters/MinimalCharacterInfiniteHealth.prefab using Guid(bfbd3fb63c624fb4884bf770fcc77ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e60e7ad4b921add29c7305b5621d0a1') in 0.053038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.111147 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Materials/MinimalGuide.mat
+  artifactKey: Guid(b7dfc3fa81111364ca3265d1d9d6ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal3D/Materials/MinimalGuide.mat using Guid(b7dfc3fa81111364ca3265d1d9d6ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1092409e3241f63764e5adda525a9a') in 0.024345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.953089 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalShootingRangeTarget.prefab
+  artifactKey: Guid(e8ce83d86af40d94db6425aae3238b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Props/MinimalShootingRangeTarget.prefab using Guid(e8ce83d86af40d94db6425aae3238b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8091bcaf866c171b63b65652e2503b5d') in 0.017533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014893 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D3.prefab
+  artifactKey: Guid(c522cf192229dcf4792ad0eaa49f072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/TopDownEngine/Demos/Minimal2D/Prefabs/Walls/MinimalWall2D3.prefab using Guid(c522cf192229dcf4792ad0eaa49f072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0c1efad759faa8b6129549aa0d4506') in 0.095029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.694852 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 2.fbx
+  artifactKey: Guid(283ab35d76a8e4833af1a2040525537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 2.fbx using Guid(283ab35d76a8e4833af1a2040525537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72314172f2787aceca62d032ff95fc2a') in 0.063100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 2_1.fbx
+  artifactKey: Guid(2de4cdce804e848229ad38fcc27c8201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 2_1.fbx using Guid(2de4cdce804e848229ad38fcc27c8201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95390519c54180ea0b5e8470ff066475') in 0.061177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 15.fbx
+  artifactKey: Guid(e3e3f8670712e4550a4c31a3155dc634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 15.fbx using Guid(e3e3f8670712e4550a4c31a3155dc634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c26b146f03f2627e4270cea086d79') in 0.155625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 6.fbx
+  artifactKey: Guid(86bb9ca2d12e94b1a978acbe6a293454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 6.fbx using Guid(86bb9ca2d12e94b1a978acbe6a293454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043447d46dde0974731dabbcfec77e31') in 0.041625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 9.fbx
+  artifactKey: Guid(6926bebd485b241b18c9dabdb22b2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 9.fbx using Guid(6926bebd485b241b18c9dabdb22b2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209a98ad16bba97333cffcced12de39f') in 0.043470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 8.fbx
+  artifactKey: Guid(b1278f0b7a57248b9b23eedc59724c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 8.fbx using Guid(b1278f0b7a57248b9b23eedc59724c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93db1eb0e8910bd747de45e6423026e') in 0.038185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.036833 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 18.fbx
+  artifactKey: Guid(f23f7b3326c7c4e70b3b8364bb341c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 18.fbx using Guid(f23f7b3326c7c4e70b3b8364bb341c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc2e6bf4cd7d9a013736f3bf53477e5') in 0.038831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 20.fbx
+  artifactKey: Guid(df9b5d297d81547888b344327c5dc32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 20.fbx using Guid(df9b5d297d81547888b344327c5dc32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e899e73ee75a3ef72c5cc5c209be7c9') in 0.037194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.855348 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 23.fbx
+  artifactKey: Guid(17e40ec42b40f42c8a1c282f764312be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 23.fbx using Guid(17e40ec42b40f42c8a1c282f764312be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4436b6b1a66cc0b8140e4fba4624fa') in 0.042907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 27.fbx
+  artifactKey: Guid(57da727fdeac14de1a1be328394e0b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 27.fbx using Guid(57da727fdeac14de1a1be328394e0b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a09284991625bcef6d25f130846bc53') in 0.234922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 25.fbx
+  artifactKey: Guid(be412e927ff0a458e807bc917a1a19ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 25.fbx using Guid(be412e927ff0a458e807bc917a1a19ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a657d3e22138c77a66bb8b16f3f729') in 0.040067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.546747 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 33.fbx
+  artifactKey: Guid(4261496407d404582b64a5b469e3f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 33.fbx using Guid(4261496407d404582b64a5b469e3f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a0b676e17986ee598b14d069f4c3af') in 0.041858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 34.fbx
+  artifactKey: Guid(827e938e003a84d0b829fae6b0210ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 34.fbx using Guid(827e938e003a84d0b829fae6b0210ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a8aa05c7c69ad8352348258a62829d') in 0.047233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.453758 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 38.fbx
+  artifactKey: Guid(df58341eeaedf4ba5b295a7569a7b750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 38.fbx using Guid(df58341eeaedf4ba5b295a7569a7b750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681aeddfebbe23576c905e0c499271ee') in 0.043872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.924617 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 43.fbx
+  artifactKey: Guid(70b1f71e11e6945c2b5e66036fb7ff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 43.fbx using Guid(70b1f71e11e6945c2b5e66036fb7ff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd61bd789842fe3687b664a8fa30dc6') in 0.037964 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022252 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2891ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2606ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1844ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (1518ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 7697.
+Memory consumption went from 375.3 MB to 373.7 MB.
+Total: 41.630100 ms (FindLiveObjects: 1.211800 ms CreateObjectMapping: 0.281700 ms MarkObjects: 38.761300 ms  DeleteObjects: 1.373100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016847 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2734ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2415ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (1479ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 7711.
+Memory consumption went from 375.6 MB to 374.0 MB.
+Total: 45.520600 ms (FindLiveObjects: 1.159800 ms CreateObjectMapping: 0.477900 ms MarkObjects: 42.465800 ms  DeleteObjects: 1.415400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020378 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2883ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2583ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1948ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (1581ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 7725.
+Memory consumption went from 375.7 MB to 374.2 MB.
+Total: 43.703000 ms (FindLiveObjects: 1.149400 ms CreateObjectMapping: 0.265600 ms MarkObjects: 40.712800 ms  DeleteObjects: 1.573000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017000 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2982ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2684ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (2053ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (1688ms)
+				ProcessInitializeOnLoadMethodAttributes (204ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 7739.
+Memory consumption went from 375.1 MB to 373.6 MB.
+Total: 53.550500 ms (FindLiveObjects: 1.364900 ms CreateObjectMapping: 0.467700 ms MarkObjects: 49.824100 ms  DeleteObjects: 1.892000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016607 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.990 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2991ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2697ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (2018ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (1673ms)
+				ProcessInitializeOnLoadMethodAttributes (185ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 7753.
+Memory consumption went from 375.8 MB to 374.2 MB.
+Total: 52.149500 ms (FindLiveObjects: 1.159900 ms CreateObjectMapping: 0.289800 ms MarkObjects: 49.278700 ms  DeleteObjects: 1.419000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\HyperCasual\HyperCasualTemplate\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3024ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2734ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (2036ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (1686ms)
+				ProcessInitializeOnLoadMethodAttributes (187ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(64) extendedPlatform(0)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6793 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.6 MB). Loaded Objects now: 7767.
+Memory consumption went from 375.2 MB to 373.6 MB.
+Total: 46.503200 ms (FindLiveObjects: 1.132500 ms CreateObjectMapping: 0.317600 ms MarkObjects: 43.491200 ms  DeleteObjects: 1.559800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 326.204388 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 2.fbx
+  artifactKey: Guid(3772959aff3cd4e3791e51bfe2531a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 2.fbx using Guid(3772959aff3cd4e3791e51bfe2531a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119b62a71422def441614cd91452b104') in 0.124213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 6.fbx
+  artifactKey: Guid(4dc2b5a1d7c4c4a518ee799ae63cb6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 6.fbx using Guid(4dc2b5a1d7c4c4a518ee799ae63cb6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4431afababdb5fe83e059ae815f804eb') in 0.052085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 14.fbx
+  artifactKey: Guid(2918dbb92b7a24e9c944c78e46694e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 14.fbx using Guid(2918dbb92b7a24e9c944c78e46694e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705902852e9039fb1f3c12fff63a7d89') in 0.067721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 16.fbx
+  artifactKey: Guid(fcf38c76ede874326b02054606c5a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 16.fbx using Guid(fcf38c76ede874326b02054606c5a052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf244d9a1a844d473a6387671759fd84') in 0.059476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 12.fbx
+  artifactKey: Guid(aa125e05f3cf543b4aa74029c8675b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 12.fbx using Guid(aa125e05f3cf543b4aa74029c8675b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7fb959d19881c4846538bbd0a63d45') in 0.070566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 9.fbx
+  artifactKey: Guid(1d031c04fb1564ffb9a0c90575eeb4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 9.fbx using Guid(1d031c04fb1564ffb9a0c90575eeb4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab8f33b580604435d281322320631f5') in 0.052686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 17.fbx
+  artifactKey: Guid(5c166a9e4d56048a7a9e4b109ace1401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 17.fbx using Guid(5c166a9e4d56048a7a9e4b109ace1401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd085acf10bee1e710f20100ceebbea94') in 0.065276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 20.fbx
+  artifactKey: Guid(e9dbcbb1acb094476ab8208f1e338891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 20.fbx using Guid(e9dbcbb1acb094476ab8208f1e338891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b828377139967d89d801860283e7edc5') in 0.045410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 7.fbx
+  artifactKey: Guid(52298b606d50c4a75b58de161bbcc063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 7.fbx using Guid(52298b606d50c4a75b58de161bbcc063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d39ed0c10d31702e974ddb6aad5c4f5') in 0.042357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 13.fbx
+  artifactKey: Guid(d6f8f1ed8433f4456a49a70d8040ce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/Unsmooth/Body Type 13.fbx using Guid(d6f8f1ed8433f4456a49a70d8040ce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135c583370c28eee74a0ff3b121fe8c2') in 0.043464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.841461 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 2@Female Standing Pose.fbx
+  artifactKey: Guid(740339bdb25c14fbe92b88f63e0a625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 2@Female Standing Pose.fbx using Guid(740339bdb25c14fbe92b88f63e0a625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81775878b5a211ee77cc4807c074c8a8') in 0.046265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 13@Male Standing Pose.fbx
+  artifactKey: Guid(462761f6f22cc43c98cafb195d2e8284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 13@Male Standing Pose.fbx using Guid(462761f6f22cc43c98cafb195d2e8284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154a362f1f4b2f40ea36522571fc2cc6') in 0.057182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 14@Male Standing Pose.fbx
+  artifactKey: Guid(d49c8feb53b4c483b8e18d17c878c35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 14@Male Standing Pose.fbx using Guid(d49c8feb53b4c483b8e18d17c878c35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df70244179e64a09cb91ce2d5daaf90c') in 0.051765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 9@Female Standing Pose.fbx
+  artifactKey: Guid(25effee6c74d7470fbba1c093af04eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 9@Female Standing Pose.fbx using Guid(25effee6c74d7470fbba1c093af04eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60349fb40ab31b17b981a1a333a5e0') in 0.074347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 10_1@Male Standing Pose.fbx
+  artifactKey: Guid(e32086a8b9ba341dcb91daa5e8b26e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 10_1@Male Standing Pose.fbx using Guid(e32086a8b9ba341dcb91daa5e8b26e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9694ecc2dae93ed629a5e0c6c0bf80') in 0.069174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 6@Male Locomotion Pose.fbx
+  artifactKey: Guid(46e8b66b8ff7846db9977beab85a4b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 6@Male Locomotion Pose.fbx using Guid(46e8b66b8ff7846db9977beab85a4b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b4d5d24a63e69174e32d10f3f0c09f') in 0.061726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 18@Male Locomotion Pose.fbx
+  artifactKey: Guid(4898c7972294d45e28cc4a515abeeced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 18@Male Locomotion Pose.fbx using Guid(4898c7972294d45e28cc4a515abeeced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e8b244cfaf94c61b8efed3802e6b6e') in 0.050681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 3@Male Standing Pose.fbx
+  artifactKey: Guid(6b1e0897d02bd40be982fd4d72c1b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Models/MIxamo Test/Body Type 3@Male Standing Pose.fbx using Guid(6b1e0897d02bd40be982fd4d72c1b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c75e561093ccc57337dc95f875df8e4') in 0.055110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.148930 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 5.prefab
+  artifactKey: Guid(21d8985c126224173a94eacb12bcddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 5.prefab using Guid(21d8985c126224173a94eacb12bcddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def90c4b0e12b1c402e7e4483dcc8ceb') in 0.023307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 9.prefab
+  artifactKey: Guid(b097d50a7875a4ceca65950bbcc78e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 9.prefab using Guid(b097d50a7875a4ceca65950bbcc78e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624398c58e9d9b1253874dde57ce6954') in 0.038516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 11.prefab
+  artifactKey: Guid(9d40c94786f3c4c5383afae2c7b8eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 11.prefab using Guid(9d40c94786f3c4c5383afae2c7b8eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e781ed134c5132c271182bdd029534') in 0.025192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 19.prefab
+  artifactKey: Guid(d66a40e76d86243fcab78434db709366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 19.prefab using Guid(d66a40e76d86243fcab78434db709366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68f57c57ee1ce0b6e801bf45f8e0a48') in 0.016053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 10_1.prefab
+  artifactKey: Guid(8abf8b3cd721648f698514a014121022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 10_1.prefab using Guid(8abf8b3cd721648f698514a014121022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3d6b581641f24764dc7df665acb087') in 0.015455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 13.prefab
+  artifactKey: Guid(9f7bd4babfcc74a4a8e915af7ec75856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 13.prefab using Guid(9f7bd4babfcc74a4a8e915af7ec75856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e055ae0c3eba511f1b914e987e961679') in 0.016749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 22.prefab
+  artifactKey: Guid(7ea711ad233834df8b2344e60f2b9636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 22.prefab using Guid(7ea711ad233834df8b2344e60f2b9636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4766f326c28a41c081410e01ea29a8') in 0.015513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550506 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 24.prefab
+  artifactKey: Guid(fb828eb44be2340759201f328b1ba957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 24.prefab using Guid(fb828eb44be2340759201f328b1ba957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b988e2b4823bff2de0ad23122b6b9c1e') in 0.013930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 26.prefab
+  artifactKey: Guid(b1e223c9a30cc4a51ae3de866db223c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 26.prefab using Guid(b1e223c9a30cc4a51ae3de866db223c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a627b09b117c152520854d8536b9c7a4') in 0.021317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 29.prefab
+  artifactKey: Guid(5949198aba38745dda138c5aa01b703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3RD_PARTY_SOFTWARE/HC_Characters/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 29.prefab using Guid(5949198aba38745dda138c5aa01b703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6212e0c1bef3eae81fd0f6452b11b602') in 0.019591 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
